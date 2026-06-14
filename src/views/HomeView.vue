@@ -12,28 +12,32 @@
 
         <div class="home-hero-content mb-50 items-center justify-between">
             <Header class="header" />
-            <img src="/images/logosolo.png" alt="Ourives da Chapada Logo" class="home-hero-logo w-[500px]">
+            <img src="/images/logosolo.png" alt="Ourives da Chapada Logo" class="home-hero-logo">
         </div>
 
     </section>
 
     <div class="flex justify-center gap-1 row-gallery">
-        <div class="home-1-gallery">
-            <img src="/images/home/foto1.jpg" class="">
+        <div class="flex gap-1 justify-center">
+            <div class="home-1-gallery">
+                <img src="/images/home/foto1.jpg" class="">
+            </div>
+            <div class="home-2-gallery">
+                <img src="/images/home/foto2.jpg" class="">
+            </div>
         </div>
-        <div class="home-2-gallery">
-            <img src="/images/home/foto2.jpg" class="">
-        </div>
-        <div class="home-3-gallery">
-            <img src="/images/home/foto3.jpg" class="">
-        </div>
-        <div class="home-4-gallery">
-            <img src="/images/home/foto4.jpg" class="">
+        <div class="flex gap-1 justify-center">
+            <div class="home-3-gallery">
+                <img src="/images/home/foto3.jpg" class="">
+            </div>
+            <div class="home-4-gallery">
+                <img src="/images/home/foto4.jpg" class="">
+            </div>
         </div>
     </div>
 
-    <div class="section3 w-full flex flex-col items-center justify-center z-[55] relative mt-[-400px]">
-        <img src="/images/logosoloblack.png" class="w-[500px]">
+    <div class="section3 w-full flex flex-col items-center justify-center z-[55] relative">
+        <img src="/images/logosoloblack.png" class="logo1">
         <span class="text-center text-[23px] mt-2 mb-4" style="letter-spacing: 2px;">OURIVES DA
             CHAPADA</span>
 
@@ -42,37 +46,42 @@
         <Header class="header2 pt-2 w-fit" style="border-top: 1px solid lightgray;" />
     </div>
     <div class="section4 w-full items-center justify-center flex flex-col gap-1 mt-3">
-        <img src="/images/hero-poster.jpg" class="max-w-[1210px]" />
-        <div class="flex gap-1 text-center text-[20px] max-w-[1210px]" style="letter-spacing: 2px; font-weight: 400;">
-            <div class="flex flex-col ">
-                <img src="/images/home/foto1.jpg" class="w-[300px]">
-                <span class="">CLÁSSICOS ESSENCIAIS</span>
+        <img src="/images/hero-poster.jpg" class="max-w-[1210px] w-full" />
+        <div class="flex gap-1 text-center text-[16px] sm:text-[20px] max-w-[1210px]"
+            style="letter-spacing: 2px; font-weight: 400;">
+            <div class="flex gap-1 flex-col sm:flex-row">
+                <div class="flex flex-col">
+                    <img src="/images/home/foto1.jpg" class="w-[300px]">
+                    <span class="">CLÁSSICOS ESSENCIAIS</span>
+                </div>
+                <div class="flex flex-col">
+                    <img src="/images/home/foto1.jpg" class="w-[300px]">
+                    <span class="">METAIS NOBRES</span>
+                </div>
             </div>
-            <div class="flex flex-col">
-                <img src="/images/home/foto1.jpg" class="w-[300px]">
-                <span class="">METAIS NOBRES</span>
-            </div>
-            <div class="flex flex-col">
-                <img src="/images/home/foto1.jpg" class="w-[300px]">
-                <span class="">FIBRAS E TRAMAS</span>
-            </div>
-            <div class="flex flex-col">
-                <img src="/images/home/foto1.jpg" class="w-[300px]">
-                <span class="">NATUREZA BRUTA</span>
+            <div class="flex gap-1 flex-col sm:flex-row">
+                <div class="flex flex-col">
+                    <img src="/images/home/foto1.jpg" class="w-[300px]">
+                    <span class="">FIBRAS E TRAMAS</span>
+                </div>
+                <div class="flex flex-col">
+                    <img src="/images/home/foto1.jpg" class="w-[300px]">
+                    <span class="">NATUREZA BRUTA</span>
+                </div>
             </div>
         </div>
-        <div class="flex max-w-[1210px] max-h-[400px] justify-between w-full text-center text-[20px] mt-4"
+        <div class="flex max-w-[1210px] flex-col sm:flex-row max-h-fit sm:max-h-[400px] justify-between w-full text-center  text-[16px] sm:text-[20px] mt-4"
             style="letter-spacing: 2px; font-weight: 400;">
             <div class="flex flex-col">
-                <img src="/images/home/foto1.jpg" class="w-[380px] h-full object-cover">
-                <span class="">MADEIRAS BRASILEIRAS</span>
+                <img src="/images/home/foto1.jpg" class="w-full sm:w-[380px] h-full object-cover">
+                <span class="mb-6 sm:mb-0 ">MADEIRAS BRASILEIRAS</span>
             </div>
             <div class="flex flex-col">
-                <img src="/images/home/foto1.jpg" class="w-[300px] h-full object-cover">
-                <span class="">GEMAS E METAIS</span>
+                <img src="/images/home/foto1.jpg" class="w-full sm:w-[380px] h-full object-cover">
+                <span class="mb-6 sm:mb-0 ">GEMAS E METAIS</span>
             </div>
             <div class="flex flex-col">
-                <img src="/images/home/foto1.jpg" class="w-[380px] h-full object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full sm:w-[380px] h-full object-cover">
                 <span class="">PROJETOS ESPECIAIS</span>
             </div>
         </div>
@@ -132,8 +141,8 @@
         </button>
     </div>
 
-    <div class="contact mt-5 w-full flex justify-center items-center text-center">
-        <div class="contact-form">
+    <div class="contact mt-5 flex justify-center items-center text-center">
+        <div class="contact-form w-[90%] sm:w-[600px]">
             <div class="social-buttons flex gap-4 mt-5">
                 <div class="instagram">
                     <img src="/images/instagram.png" class="w-[30px]" />
@@ -168,135 +177,3 @@
 <script setup>
 import Header from '../components/Header.vue'
 </script>
-
-<style scoped>
-.home-1-gallery {
-    position: relative;
-    overflow: hidden;
-    width: 300px;
-    height: fit-content;
-}
-
-.home-1-gallery::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    width: 300px;
-    height: 400px;
-    background-image: url('/images/home/foto1-2.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: 0.1s;
-    z-index: 2;
-}
-
-.home-1-gallery:hover::before {
-    opacity: 1;
-}
-
-.home-1-gallery img {
-    width: 300px;
-    display: block;
-}
-
-
-
-
-
-.home-2-gallery {
-    position: relative;
-    overflow: hidden;
-    width: 300px;
-    height: fit-content;
-}
-
-.home-2-gallery::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    width: 300px;
-    height: 400px;
-    background-image: url('/images/home/foto2-2.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: 0.1s;
-    z-index: 2;
-}
-
-.home-2-gallery:hover::before {
-    opacity: 1;
-}
-
-.home-2-gallery img {
-    width: 300px;
-    display: block;
-}
-
-
-
-
-
-.home-3-gallery {
-    position: relative;
-    overflow: hidden;
-    width: 300px;
-    height: fit-content;
-}
-
-.home-3-gallery::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    width: 300px;
-    height: 400px;
-    background-image: url('/images/home/foto3-2.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: 0.1s;
-    z-index: 2;
-}
-
-.home-3-gallery:hover::before {
-    opacity: 1;
-}
-
-.home-3-gallery img {
-    width: 300px;
-    display: block;
-}
-
-
-.home-4-gallery {
-    position: relative;
-    overflow: hidden;
-    width: 300px;
-    height: fit-content;
-
-}
-
-.home-4-gallery::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    width: 300px;
-    height: 400px;
-    background-image: url('/images/home/foto4-2.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: 0.1s;
-    z-index: 2;
-}
-
-.home-4-gallery:hover::before {
-    opacity: 1;
-}
-
-.home-4-gallery img {
-    width: 300px;
-    display: block;
-}
-</style>
