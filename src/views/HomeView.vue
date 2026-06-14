@@ -3,37 +3,37 @@
 
     <section class="home-hero">
 
-        <video autoplay muted loop playsinline preload="metadata" poster="/src/assets/images/hero-poster.jpg"
+        <video autoplay muted loop playsinline preload="metadata" poster="/images/hero-poster.jpg"
             class="hero-video h-[95vh] w-full object-cover">
-            <source src="/src/assets/videos/home-hero.mp4" type="video/mp4">
+            <source src="/videos/home-hero.mp4" type="video/mp4">
         </video>
 
         <div class="home-hero-overlay"></div>
 
         <div class="home-hero-content mb-50 items-center justify-between">
             <Header class="header" />
-            <img src="/src/assets/images/logosolo.png" alt="Ourives da Chapada Logo" class="home-hero-logo w-[500px]">
+            <img src="/images/logosolo.png" alt="Ourives da Chapada Logo" class="home-hero-logo w-[500px]">
         </div>
 
     </section>
 
     <div class="flex justify-center gap-1 row-gallery">
         <div class="home-1-gallery">
-            <img src="/src/assets/images/home/foto1.jpg" class="">
+            <img src="/images/home/foto1.jpg" class="">
         </div>
         <div class="home-2-gallery">
-            <img src="/src/assets/images/home/foto2.jpg" class="">
+            <img src="/images/home/foto2.jpg" class="">
         </div>
         <div class="home-3-gallery">
-            <img src="/src/assets/images/home/foto3.jpg" class="">
+            <img src="/images/home/foto3.jpg" class="">
         </div>
         <div class="home-4-gallery">
-            <img src="/src/assets/images/home/foto4.jpg" class="">
+            <img src="/images/home/foto4.jpg" class="">
         </div>
     </div>
 
     <div class="section3 w-full flex flex-col items-center justify-center z-[55] relative mt-[-400px]">
-        <img src="/src/assets/images/logosoloblack.png" class="w-[500px]">
+        <img src="/images/logosoloblack.png" class="w-[500px]">
         <span class="text-center text-[23px] mt-2 mb-4" style="letter-spacing: 2px;">OURIVES DA
             CHAPADA</span>
 
@@ -42,37 +42,37 @@
         <Header class="header2 pt-2 w-fit" style="border-top: 1px solid lightgray;" />
     </div>
     <div class="section4 w-full items-center justify-center flex flex-col gap-1 mt-3">
-        <img src="/src/assets/images/hero-poster.jpg" class="max-w-[1210px]" />
+        <img src="/images/hero-poster.jpg" class="max-w-[1210px]" />
         <div class="flex gap-1 text-center text-[20px] max-w-[1210px]" style="letter-spacing: 2px; font-weight: 400;">
             <div class="flex flex-col ">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-[300px]">
+                <img src="/images/home/foto1.jpg" class="w-[300px]">
                 <span class="">CLÁSSICOS ESSENCIAIS</span>
             </div>
             <div class="flex flex-col">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-[300px]">
+                <img src="/images/home/foto1.jpg" class="w-[300px]">
                 <span class="">METAIS NOBRES</span>
             </div>
             <div class="flex flex-col">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-[300px]">
+                <img src="/images/home/foto1.jpg" class="w-[300px]">
                 <span class="">FIBRAS E TRAMAS</span>
             </div>
             <div class="flex flex-col">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-[300px]">
+                <img src="/images/home/foto1.jpg" class="w-[300px]">
                 <span class="">NATUREZA BRUTA</span>
             </div>
         </div>
         <div class="flex max-w-[1210px] max-h-[400px] justify-between w-full text-center text-[20px] mt-4"
             style="letter-spacing: 2px; font-weight: 400;">
             <div class="flex flex-col">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-[380px] h-full object-cover">
+                <img src="/images/home/foto1.jpg" class="w-[380px] h-full object-cover">
                 <span class="">MADEIRAS BRASILEIRAS</span>
             </div>
             <div class="flex flex-col">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-[300px] h-full object-cover">
+                <img src="/images/home/foto1.jpg" class="w-[300px] h-full object-cover">
                 <span class="">GEMAS E METAIS</span>
             </div>
             <div class="flex flex-col">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-[380px] h-full object-cover">
+                <img src="/images/home/foto1.jpg" class="w-[380px] h-full object-cover">
                 <span class="">PROJETOS ESPECIAIS</span>
             </div>
         </div>
@@ -81,46 +81,46 @@
     <div class="home-gallery mt-20 w-full flex flex-col items-center justify-center">
         <div class="flex gap-1 items-center justify-center w-full max-w-[1210px] ">
 
-            <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[700px] object-cover">
+            <img src="/images/home/foto1.jpg" class="w-full h-[700px] object-cover">
 
             <div class="flex flex-col gap-1 w-full">
 
-                <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[348px] object-cover">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[348px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[348px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[348px] object-cover">
 
             </div>
         </div>
 
         <div class="flex gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
             <div class="w-[27%]">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
             </div>
             <div class="w-[50%]">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
             </div>
             <div class="w-[23%]">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
             </div>
         </div>
 
         <div class="flex gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
 
-            <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
-            <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
-            <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+            <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+            <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+            <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
 
         </div>
 
         <div class="flex gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
 
             <div class="flex gap-1 w-[66%]">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[480px] object-cover">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[480px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[480px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[480px] object-cover">
             </div>
 
             <div class="flex flex-col gap-1 w-[34%]">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[228px] object-cover">
-                <img src="/src/assets/images/home/foto1.jpg" class="w-full h-[248px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[228px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[248px] object-cover">
             </div>
         </div>
 
@@ -136,10 +136,10 @@
         <div class="contact-form">
             <div class="social-buttons flex gap-4">
                 <div class="instagram">
-                    <img src="/src/assets/images/instagram.png" class="w-[30px]" />
+                    <img src="/images/instagram.png" class="w-[30px]" />
                 </div>
                 <div class="whatsapp">
-                    <img src="/src/assets/images/whatsapp.png" class="w-[30px]" />
+                    <img src="/images/whatsapp.png" class="w-[30px]" />
                 </div>
             </div>
             <span class="text-[60px]" style="letter-spacing: 2px;">CONTATO</span>
@@ -183,7 +183,7 @@ import Header from '../components/Header.vue'
     inset: 0;
     width: 300px;
     height: 400px;
-    background-image: url('images/home/foto1-2.jpg');
+    background-image: url('/images/home/foto1-2.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -217,7 +217,7 @@ import Header from '../components/Header.vue'
     inset: 0;
     width: 300px;
     height: 400px;
-    background-image: url('images/home/foto2-2.jpg');
+    background-image: url('/images/home/foto2-2.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -251,7 +251,7 @@ import Header from '../components/Header.vue'
     inset: 0;
     width: 300px;
     height: 400px;
-    background-image: url('images/home/foto3-2.jpg');
+    background-image: url('/images/home/foto3-2.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -283,7 +283,7 @@ import Header from '../components/Header.vue'
     inset: 0;
     width: 300px;
     height: 400px;
-    background-image: url('images/home/foto4-2.jpg');
+    background-image: url('/images/home/foto4-2.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0;
