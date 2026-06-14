@@ -183,7 +183,7 @@ import Header from '../components/Header.vue'
     inset: 0;
     width: 300px;
     height: 400px;
-    background-image: url('src/assets/images/home/foto1-2.jpg');
+    background-image: url('images/home/foto1-2.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -217,7 +217,7 @@ import Header from '../components/Header.vue'
     inset: 0;
     width: 300px;
     height: 400px;
-    background-image: url('src/assets/images/home/foto2-2.jpg');
+    background-image: url('images/home/foto2-2.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -251,7 +251,7 @@ import Header from '../components/Header.vue'
     inset: 0;
     width: 300px;
     height: 400px;
-    background-image: url('src/assets/images/home/foto3-2.jpg');
+    background-image: url('images/home/foto3-2.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -283,7 +283,7 @@ import Header from '../components/Header.vue'
     inset: 0;
     width: 300px;
     height: 400px;
-    background-image: url('src/assets/images/home/foto4-2.jpg');
+    background-image: url('images/home/foto4-2.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0;
