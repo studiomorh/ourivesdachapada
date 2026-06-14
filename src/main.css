@@ -65,7 +65,7 @@
 }
 
 .row-gallery {
-    background-image: url(/src/assets/images/home/fundo1.png);
+    background-image: url(/images/home/fundo1.png);
     height: 1000px;
     margin-top: -140px;
     background-position-y: top;

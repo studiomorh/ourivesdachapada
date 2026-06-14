@@ -134,7 +134,7 @@
 
     <div class="contact mt-5 w-full flex justify-center items-center text-center">
         <div class="contact-form">
-            <div class="social-buttons flex gap-4">
+            <div class="social-buttons flex gap-4 mt-5">
                 <div class="instagram">
                     <img src="/images/instagram.png" class="w-[30px]" />
                 </div>
