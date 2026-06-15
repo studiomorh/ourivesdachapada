@@ -88,51 +88,135 @@
     </div>
 
     <div class="home-gallery px-2 sm:px-0 mt-20 w-full flex flex-col items-center justify-center">
-        <div class="flex gap-1 items-center justify-center w-full max-w-[1210px] ">
+        <!-- ROW 1 -->
+        <div class="flex flex-col sm:flex-row gap-1 w-full max-w-[1210px]">
 
-            <img src="/images/home/foto1.jpg" class="w-full h-[700px] object-cover">
+            <!-- FOTO GRANDE -->
+            <div class="w-full sm:w-1/2">
+                <img src="/images/home/foto1.jpg" class="w-full h-[300px] sm:h-[702px] object-cover">
+            </div>
 
-            <div class="flex flex-col gap-1 w-full">
+            <!-- BLOCO DAS DUAS FOTOS -->
+            <div class="w-full sm:w-1/2 flex flex-row sm:flex-col gap-1 ">
 
-                <img src="/images/home/foto1.jpg" class="w-full h-[348px] object-cover">
-                <img src="/images/home/foto1.jpg" class="w-full h-[348px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[200px] sm:h-[349px] object-cover">
+
+                <img src="/images/home/foto1.jpg" class="w-full h-[200px] sm:h-[349px] object-cover">
 
             </div>
+
         </div>
 
-        <div class="flex flex-col sm:flex-row gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
-            <div class="flex gap-1 w-full sm:w-[75%]">
-                <div class="w-full sm:w-[40%]">
+        <!-- ROW 2 -->
+        <div class="flex flex-col gap-1 w-full max-w-[1210px] mt-1 sm:mt-0">
+
+            <!-- PRIMEIRA LINHA MOBILE -->
+            <div class="w-full">
+                <img src="/images/home/foto1.jpg" class="w-full h-[300px] sm:hidden object-cover">
+            </div>
+
+            <!-- DESKTOP -->
+            <div class="hidden sm:flex gap-1 w-full">
+
+                <div class="w-[35%]">
                     <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
                 </div>
-                <div class="w-full sm:w-[60%]">
+
+                <div class="w-[40%]">
                     <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
                 </div>
+
+                <div class="w-[25%]">
+                    <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+                </div>
+
             </div>
-            <div class="w-full sm:w-[25%]">
-                <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+
+            <!-- SEGUNDA LINHA MOBILE -->
+            <div class="flex sm:hidden gap-1 w-full">
+
+                <div class="w-[60%]">
+                    <img src="/images/home/foto1.jpg" class="w-full h-[220px] object-cover">
+                </div>
+
+                <div class="w-[40%]">
+                    <img src="/images/home/foto1.jpg" class="w-full h-[220px] object-cover">
+                </div>
+
             </div>
+
         </div>
 
-        <div class="flex gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
+        <!-- ROW 3 -->
 
-            <img src="/images/home/foto1.jpg" class="w-full h-[250px] sm:h-[430px] object-cover">
-            <img src="/images/home/foto1.jpg" class="w-full h-[250px] sm:h-[430px] object-cover">
-            <img src="/images/home/foto1.jpg" class="w-full h-[250px] sm:h-[430px] object-cover">
+        <div class="flex gap-1 w-full max-w-[1210px] h-[200px] sm:h-[430px] mt-1">
+
+            <div class="w-1/3 h-full">
+                <img src="/images/home/foto1.jpg" class="w-full h-full object-cover">
+            </div>
+
+            <div class="w-1/3 h-full">
+                <img src="/images/home/foto1.jpg" class="w-full h-full object-cover">
+            </div>
+
+            <div class="w-1/3 h-full">
+                <img src="/images/home/foto1.jpg" class="w-full h-full object-cover">
+            </div>
 
         </div>
 
-        <div class="flex flex-col sm:flex-row gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
+        <div class="flex flex-col gap-1 w-full max-w-[1210px] mt-1">
 
-            <div class="flex flex-col sm:flex-row gap-1 w-full sm:w-[66%]">
-                <img src="/images/home/foto1.jpg" class="w-full h-[480px] object-cover">
-                <img src="/images/home/foto1.jpg" class="w-full h-[480px] object-cover">
+            <!-- MOBILE -->
+            <div class="flex sm:hidden gap-1">
+
+                <div class="w-1/2">
+                    <img src="/images/home/foto1.jpg" class="w-full h-[220px] object-cover">
+                </div>
+
+                <div class="w-1/2">
+                    <img src="/images/home/foto1.jpg" class="w-full h-[220px] object-cover">
+                </div>
+
             </div>
 
-            <div class="flex flex-row sm:flex-col gap-1 w-full sm:w-[34%]">
-                <img src="/images/home/foto1.jpg" class="w-full h-[300px] sm:h-[228px] object-cover">
-                <img src="/images/home/foto1.jpg" class="w-full h-[300px] sm:h-[248px] object-cover">
+            <div class="flex sm:hidden flex-col gap-1">
+
+                <img src="/images/home/foto1.jpg" class="w-full h-[180px] object-cover">
+
+                <img src="/images/home/foto1.jpg" class="w-full h-[180px] object-cover">
+
             </div>
+
+            <!-- DESKTOP -->
+            <div class="hidden sm:flex gap-1 h-[480px]">
+
+                <div class="flex gap-1 w-[66%]">
+
+                    <div class="w-1/2">
+                        <img src="/images/home/foto1.jpg" class="w-full h-full object-cover">
+                    </div>
+
+                    <div class="w-1/2">
+                        <img src="/images/home/foto1.jpg" class="w-full h-full object-cover">
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col gap-1 w-[34%]">
+
+                    <div class="h-[48%]">
+                        <img src="/images/home/foto1.jpg" class="w-full h-full object-cover">
+                    </div>
+
+                    <div class="h-[51%]">
+                        <img src="/images/home/foto1.jpg" class="w-full h-full object-cover">
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
     </div>
