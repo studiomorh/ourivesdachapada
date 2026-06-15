@@ -3,7 +3,7 @@
 
     <section class="home-hero">
 
-        <video ref="video" autoplay muted loop playsinline webkit-playsinline
+        <video ref="video" muted autoplay loop playsinline webkit-playsinline
             class="hero-video h-[95vh] w-full object-cover">
             <source src="/videos/home-hero.mp4" type="video/mp4">
         </video>
@@ -267,4 +267,17 @@
 
 <script setup>
 import Header from '../components/Header.vue'
+import { ref, onMounted } from 'vue'
+
+const video = ref(null)
+
+onMounted(async () => {
+    try {
+        await video.value.play()
+        alert('VIDEO TOCOU')
+    } catch (err) {
+        alert('VIDEO BLOQUEADO')
+        console.log(err)
+    }
+})
 </script>
