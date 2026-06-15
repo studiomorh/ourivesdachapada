@@ -38,14 +38,14 @@
 
     <div class="section3 w-full flex flex-col items-center justify-center z-[55] relative">
         <img src="/images/logosoloblack.png" class="logo1">
-        <span class="text-center text-[23px] mt-2 mb-4" style="letter-spacing: 2px;">OURIVES DA
+        <span class="text-center text-[19px] sm:text-[23px] mt-2 mb-4" style="letter-spacing: 2px;">OURIVES DA
             CHAPADA</span>
 
     </div>
     <div class="header-div">
         <Header class="header2 pt-2 w-fit" style="border-top: 1px solid lightgray;" />
     </div>
-    <div class="section4 w-full items-center justify-center flex flex-col gap-1 mt-3">
+    <div class="section4 px-2 sm:py-0 w-full items-center justify-center flex flex-col gap-1 mt-3">
         <img src="/images/hero-poster.jpg" class="max-w-[1210px] w-full" />
         <div class="flex gap-1 text-center text-[16px] sm:text-[20px] max-w-[1210px]"
             style="letter-spacing: 2px; font-weight: 400;">
@@ -56,21 +56,21 @@
                 </div>
                 <div class="flex flex-col">
                     <img src="/images/home/foto1.jpg" class="w-[300px]">
-                    <span class="">METAIS NOBRES</span>
+                    <span class="px-7 sm:px-0">METAIS NOBRES</span>
                 </div>
             </div>
             <div class="flex gap-1 flex-col sm:flex-row">
                 <div class="flex flex-col">
                     <img src="/images/home/foto1.jpg" class="w-[300px]">
-                    <span class="">FIBRAS E TRAMAS</span>
+                    <span class="px-7 sm:px-0 ">FIBRAS E TRAMAS</span>
                 </div>
                 <div class="flex flex-col">
                     <img src="/images/home/foto1.jpg" class="w-[300px]">
-                    <span class="">NATUREZA BRUTA</span>
+                    <span class="px-7 sm:px-0 ">NATUREZA BRUTA</span>
                 </div>
             </div>
         </div>
-        <div class="flex max-w-[1210px] flex-col sm:flex-row max-h-fit sm:max-h-[400px] justify-between w-full text-center  text-[16px] sm:text-[20px] mt-4"
+        <div class="flex max-w-[1210px] flex-col sm:flex-row max-h-fit sm:max-h-[400px] justify-between w-full text-center gap-1 text-[16px] sm:text-[20px] mt-4"
             style="letter-spacing: 2px; font-weight: 400;">
             <div class="flex flex-col">
                 <img src="/images/home/foto1.jpg" class="w-full sm:w-[380px] h-full object-cover">
@@ -87,7 +87,7 @@
         </div>
     </div>
 
-    <div class="home-gallery mt-20 w-full flex flex-col items-center justify-center">
+    <div class="home-gallery px-2 sm:px-0 mt-20 w-full flex flex-col items-center justify-center">
         <div class="flex gap-1 items-center justify-center w-full max-w-[1210px] ">
 
             <img src="/images/home/foto1.jpg" class="w-full h-[700px] object-cover">
@@ -100,36 +100,38 @@
             </div>
         </div>
 
-        <div class="flex gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
-            <div class="w-[27%]">
-                <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+        <div class="flex flex-col sm:flex-row gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
+            <div class="flex gap-1 w-full sm:w-[75%]">
+                <div class="w-full sm:w-[40%]">
+                    <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+                </div>
+                <div class="w-full sm:w-[60%]">
+                    <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+                </div>
             </div>
-            <div class="w-[50%]">
-                <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
-            </div>
-            <div class="w-[23%]">
+            <div class="w-full sm:w-[25%]">
                 <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
             </div>
         </div>
 
         <div class="flex gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
 
-            <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
-            <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
-            <img src="/images/home/foto1.jpg" class="w-full h-[430px] object-cover">
+            <img src="/images/home/foto1.jpg" class="w-full h-[250px] sm:h-[430px] object-cover">
+            <img src="/images/home/foto1.jpg" class="w-full h-[250px] sm:h-[430px] object-cover">
+            <img src="/images/home/foto1.jpg" class="w-full h-[250px] sm:h-[430px] object-cover">
 
         </div>
 
-        <div class="flex gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
+        <div class="flex flex-col sm:flex-row gap-1 items-center justify-center w-full max-w-[1210px] mt-1">
 
-            <div class="flex gap-1 w-[66%]">
+            <div class="flex flex-col sm:flex-row gap-1 w-full sm:w-[66%]">
                 <img src="/images/home/foto1.jpg" class="w-full h-[480px] object-cover">
                 <img src="/images/home/foto1.jpg" class="w-full h-[480px] object-cover">
             </div>
 
-            <div class="flex flex-col gap-1 w-[34%]">
-                <img src="/images/home/foto1.jpg" class="w-full h-[228px] object-cover">
-                <img src="/images/home/foto1.jpg" class="w-full h-[248px] object-cover">
+            <div class="flex flex-row sm:flex-col gap-1 w-full sm:w-[34%]">
+                <img src="/images/home/foto1.jpg" class="w-full h-[300px] sm:h-[228px] object-cover">
+                <img src="/images/home/foto1.jpg" class="w-full h-[300px] sm:h-[248px] object-cover">
             </div>
         </div>
 
@@ -141,18 +143,19 @@
         </button>
     </div>
 
-    <div class="contact mt-5 flex justify-center items-center text-center">
+    <div class="contact mt-20 flex justify-center items-center text-center">
         <div class="contact-form w-[90%] sm:w-[600px]">
             <div class="social-buttons flex gap-4 mt-5">
                 <div class="instagram">
-                    <img src="/images/instagram.png" class="w-[30px]" />
+                    <img src="/images/instagram.png" class="w-[27px] sm:w-[30px]" />
                 </div>
                 <div class="whatsapp">
-                    <img src="/images/whatsapp.png" class="w-[30px]" />
+                    <img src="/images/whatsapp.png" class="w-[27px] sm:w-[30px]" />
                 </div>
             </div>
-            <span class="text-[60px]" style="letter-spacing: 2px;">CONTATO</span>
-            <span class="text-[18px] w-[80%] mb-8">Para aquisições, exposições, parcerias ou outras informações, entre
+            <span class="text-[50px] sm:text-[60px]" style="letter-spacing: 2px;">CONTATO</span>
+            <span class="text-[16px] sm:text-[18px] w-[80%] mb-8">Para aquisições, exposições, parcerias ou outras
+                informações, entre
                 em
                 contato.</span>
             <form class="flex flex-col gap-3 w-[90%] items-center justify-center mb-8"

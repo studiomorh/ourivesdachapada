@@ -146,7 +146,7 @@ a{
 @media (max-width: 600px) {
 
     .section3 {
-margin-top: -50px;
+margin-top: -100px;
     }
 .row-gallery {
     flex-direction: column;
@@ -176,7 +176,9 @@ margin-top: -50px;
     width: 200px;
     height: auto;
 }
-
+.logo1 {
+    width: 300px;
+}
 .home-2-gallery img {
     width: 200px;
 }
@@ -224,6 +226,10 @@ margin-top: -50px;
     margin-top: -300px;
 }
 
+    .section3 {
+margin-top: -150px;
+    }
+
 .home-1-gallery {
     width: 170px;
     height: fit-content;
@@ -276,5 +282,9 @@ margin-top: -50px;
 
 .home-hero-logo {
     width: 400px;
+}
+
+.home-hero-logo {
+    width: 300px;
 }
   }
