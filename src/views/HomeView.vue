@@ -3,14 +3,13 @@
 
     <section class="home-hero">
 
-        <video autoplay muted loop playsinline preload="metadata" poster="/images/hero-poster.jpg"
-            class="hero-video h-[95vh] w-full object-cover">
+        <video autoplay muted loop playsinline preload="auto" controls class="hero-video h-[95vh] w-full object-cover">
             <source src="/videos/home-hero.mp4" type="video/mp4">
         </video>
 
         <div class="home-hero-overlay"></div>
 
-        <div class="home-hero-content mb-50 items-center justify-between">
+        <div class="home-hero-content mb-35 sm:mb-50 items-center justify-between">
             <Header class="header" />
             <img src="/images/logosolo.png" alt="Ourives da Chapada Logo" class="home-hero-logo">
         </div>
