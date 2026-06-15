@@ -3,12 +3,13 @@
 
     <section class="home-hero">
 
-        <video ref="video" muted autoplay loop playsinline webkit-playsinline preload="auto">
+        <video ref="video" autoplay muted loop playsinline preload="auto" @play="started = true"
+            class="hero-video h-[95vh] w-full object-cover">
             <source src="/videos/home-hero-noaudio.mp4" type="video/mp4">
         </video>
 
-        <button @click="$refs.video?.play()" class="fixed top-10 left-10 z-[9999] bg-white text-black p-4">
-            TESTAR VIDEO
+        <button v-if="!started" @click="playVideo" class="play-button">
+            ▶
         </button>
 
         <div class="home-hero-overlay"></div>
@@ -266,19 +267,46 @@
 
 <script setup>
 import Header from '../components/Header.vue'
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 
 const video = ref(null)
+const started = ref(false)
 
-onMounted(() => {
-    setTimeout(async () => {
-        try {
-            await video.value.play()
-            alert('VIDEO TOCOU')
-        } catch (err) {
-            alert(err.name)
-            console.error(err)
-        }
-    }, 1000)
-})
+const playVideo = async () => {
+    try {
+        await video.value.play()
+    } catch (err) {
+        console.error(err)
+    }
+}
 </script>
+
+<style scoped>
+.play-button {
+    position: absolute;
+    inset: 0;
+
+    margin: auto;
+
+    width: 90px;
+    height: 90px;
+
+    border-radius: 999px;
+
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(8px);
+
+    color: white;
+    font-size: 2rem;
+
+    z-index: 999;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.play-button:hover {
+    transform: scale(1.05);
+}
+</style>
