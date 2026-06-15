@@ -3,9 +3,8 @@
 
     <section class="home-hero">
 
-        <video ref="video" muted autoplay loop playsinline webkit-playsinline
-            class="hero-video h-[95vh] w-full object-cover">
-            <source src="/videos/home-hero.mp4" type="video/mp4">
+        <video ref="video" muted autoplay loop playsinline webkit-playsinline preload="auto">
+            <source src="/videos/home-hero-noaudio.mp4" type="video/mp4">
         </video>
 
         <button @click="$refs.video?.play()" class="fixed top-10 left-10 z-[9999] bg-white text-black p-4">
