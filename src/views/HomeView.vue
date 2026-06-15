@@ -270,13 +270,15 @@ import { ref, onMounted } from 'vue'
 
 const video = ref(null)
 
-onMounted(async () => {
-    try {
-        await video.value.play()
-        alert('VIDEO TOCOU')
-    } catch (err) {
-        alert('VIDEO BLOQUEADO')
-        console.log(err)
-    }
+onMounted(() => {
+    setTimeout(async () => {
+        try {
+            await video.value.play()
+            alert('VIDEO TOCOU')
+        } catch (err) {
+            alert(err.name)
+            console.error(err)
+        }
+    }, 1000)
 })
 </script>
