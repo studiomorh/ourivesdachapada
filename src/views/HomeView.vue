@@ -15,7 +15,7 @@
         <div class="home-hero-overlay"></div>
 
         <div class="home-hero-content mb-35 sm:mb-50 items-center justify-between">
-            <Header class="header" />
+            <Header class="header mt-3" />
             <img src="/images/logosolo.png" alt="Ourives da Chapada Logo" class="home-hero-logo">
         </div>
 
@@ -208,19 +208,14 @@
                 </div>
 
                 <div class="flex flex-col gap-1 w-[34%]">
-
                     <div class="h-[48%]">
                         <img src="/images/home/foto1.jpg" class="w-full h-full object-cover">
                     </div>
-
                     <div class="h-[51%]">
                         <img src="/images/home/foto1.jpg" class="w-full h-full object-cover">
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
     </div>
@@ -285,24 +280,16 @@ const playVideo = async () => {
 .play-button {
     position: absolute;
     inset: 0;
-
     margin: auto;
-
-    width: 90px;
-    height: 90px;
-
+    width: 80px;
+    height: 80px;
     border-radius: 999px;
-
     background: rgba(255, 255, 255, .15);
     backdrop-filter: blur(8px);
-
     color: white;
     font-size: 2rem;
-
     z-index: 999;
-
     cursor: pointer;
-
     transition: .2s;
 }
 
