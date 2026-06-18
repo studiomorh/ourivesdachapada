@@ -44,10 +44,9 @@
   background-color: rgba(255, 255, 255, 0.568);
   backdrop-filter: blur(10px);
   border-radius: 0px 0px 10px 10px;
-  padding: 0px 20px;
   gap: 0px;
   align-items: center;
-  padding: 10px 00px;
+  padding: 6px 0px;
   color: rgb(29, 29, 29) !important;
 }
 
@@ -104,12 +103,40 @@
     margin-top: -400px;
 }
 
+/* OUTLINE VERMELHO TODOS ELEMENTOS */
+
+/* * {
+    outline: 1px solid red;
+} */
+
 .home-hero-overlay {
   position: absolute;
   height: 95vh;
   inset: 0;
   background: rgba(0,0,0,.35);
 }
+
+
+.destaque-text {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.destaque-title {
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.tag {
+    margin-top: 10px;
+    border-left: 3px solid #cfb43c;
+    padding-left: 15px;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+
 
 .home-hero-overlay2 {
   position: absolute;
@@ -494,7 +521,6 @@ code {
   }
 }
 
-
   a {
     color: inherit;
     font-size: 17px;
@@ -503,7 +529,7 @@ code {
     background: var(--social-bg);
     letter-spacing: 2px;
     display: flex;
-    padding: 6px 12px;
+    padding: 6px 10px;
     align-items: center;
     gap: 8px;
     text-decoration: none;

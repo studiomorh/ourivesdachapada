@@ -7,8 +7,10 @@
         <div class="home-hero-overlay2 h-[85vh]"></div>
 
         <div class="home-hero-content items-center pb-100 sm:pb-50 justify-between">
+
             <Header class="header mt-3" />
             <img src="/images/logowhite.png" alt="Ourives da Chapada Logo" class="w-[300px] sm:w-[500px]">
+
         </div>
 
     </section>
