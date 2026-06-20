@@ -1,17 +1,17 @@
     <template>
         <div
-            class="destaques-desktop z-999 relative px-5 md:px-2 mt-[-70px] md:mt-20 w-full justify-center flex flex-col gap-30 items-center">
-            <div class="sambura flex flex-col md:flex-row gap-1 w-full max-w-[1210px]">
+            class="destaques-desktop z-999 relative px-2 mt-[-70px] md:mt-20 w-full justify-center flex flex-col gap-30 items-center">
+            <div class="sambura flex  flex-col md:flex-row gap-1 w-full max-w-[1210px]">
                 <div class="coluna1 w-full md:w-1/2 text-start">
                     <img src="/images/portfolio/sambura1.jpg" class="mb-4 md:hidden"
                         style="border-radius: 10px 10px 0px 0px;">
-                    <div class="destaque-text">
+                    <div class="destaque-text px-3">
                         // PEÇAS DESTAQUE
                     </div>
-                    <div class="destaque-title">
+                    <div class="destaque-title px-3">
                         SAMBURÁ
                     </div>
-                    <div class="paragrafo text-[19px] mt-5 mb-10 md:pr-8">
+                    <div class="paragrafo text-[19px] mt-5 mb-10 md:pr-8 px-3">
                         <p class="mb-3">
                             O conjunto Samburá é composto por colar com pendente e dois brincos. Inspiradas nas
                             ancestrais
@@ -77,13 +77,13 @@
 
             <div class="carumbe flex flex-col md:flex-row  gap-1 w-full max-w-[1210px]">
                 <div class="coluna1 w-full md:w-1/2 text-start">
-                    <div class="destaque-text">
+                    <div class="destaque-text px-3">
                         // PEÇAS DESTAQUE
                     </div>
-                    <div class="destaque-title">
+                    <div class="destaque-title px-3">
                         CARUMBÉ
                     </div>
-                    <div class="paragrafo text-[19px] mt-5 mb-10 md:pr-8">
+                    <div class="paragrafo text-[19px] mt-5 mb-10 md:pr-8 px-3">
                         <p class="mb-3">
                             Inspirado na ferramenta utilizada no garimpo — o carumbé, vasilha cônica empregada na
                             lavagem de
@@ -138,16 +138,16 @@
 
             <div class="ibirapitanga flex flex-col md:flex-row   gap-1 w-full max-w-[1210px]">
                 <div class="coluna1 w-full md:w-1/2 text-start">
-                    <div class="destaque-text">
+                    <div class="destaque-text px-3">
                         // PEÇAS DESTAQUE
                     </div>
-                    <div class="destaque-title">
+                    <div class="destaque-title px-3">
                         IBIRAPITANGA
                     </div>
                     <div class="flex flex-col mt-6 gap-1">
                         <img src="/images/portfolio/ibirapitanga1.png" style="border-radius: 10px 10px 0px 0px;">
                         <img src="/images/portfolio/ibirapitanga2.png"
-                            class="w-full max-h-[200px] object-cover object-top">
+                            class="w-full h-[150px] sm:h-[245px] md:h-[150px] lg:h-[230px] object-cover object-top">
                         <img src="/images/portfolio/ibirapitanga3.png">
                         <img src="/images/portfolio/ibirapitanga4.png">
                     </div>
@@ -159,7 +159,7 @@
                         <p>Dimensões: Colar: 23cm x 18cm | Brincos 5cm x 1cm</p>
                     </div>
                 </div>
-                <div class="coluna2 text-start mt-8 md:mt-15 w-full md:w-1/2 ">
+                <div class="coluna2 text-start mt-8 md:mt-15 w-full md:w-1/2  px-3">
                     <div class="paragrafo text-[19px] md:mt-10 mb-10 md:pl-8">
                         <p class="mb-3">
                             O contraste entre as facetas de prata e pau-brasil é apresentado no anel Ibirapitanga, que
