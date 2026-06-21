@@ -238,7 +238,7 @@
 
                     <div class="w-1/2">
                         <img src="/images/home/gallery10.jpg" class="w-full h-[220px] object-cover object-bottom">
-                        <a href="/portfolio#gemas">
+                        <a href="/portfolio#gemas" style="padding: 0px !important;">
                             <div class="gallery-overlay">
                                 <span>Gemas e Metais</span>
                             </div>

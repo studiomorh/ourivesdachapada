@@ -71,9 +71,9 @@ const openPortfolio = ref(false)
 .submenu {
     position: absolute;
     top: 100%;
-    left: 100%;
+    left: 90%;
     transform: translateX(-50%);
-    min-width: 250px;
+    min-width: 219px;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@ const openPortfolio = ref(false)
 
 .submenu a {
     padding: 9px 16px;
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: none;
     text-align: start;
 }

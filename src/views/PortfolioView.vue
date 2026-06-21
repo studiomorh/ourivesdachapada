@@ -27,13 +27,13 @@
             <div class="destaque-text text-start w-full pl-5">
                 // PORTFÓLIO
             </div>
-            <div class="div-flutuante flex justify-between items-center max-w-[98%] w-full">
+            <div class="div-flutuante flex justify-between items-center max-w-[95%] sm:max-w-[98%] w-full">
                 <div class="titulo-flutuante text-start text-[22px] px-2 sm:px-5 sm:text-[35px] "> {{ tituloAtual }}
                 </div>
                 <div class="portfolio-menu2">
                     <a class="menu-title2" @click="openPortfolio = !openPortfolio"><img src="/images/down.png"
-                            class="w-[35px]" /> </a>
-                    <div class="submenu2">
+                            class="w-[30px] sm:w-[35px]" /> </a>
+                    <div class="submenu2 text-[20px]">
 
                         <RouterLink :to="{ path: '/portfolio', hash: '#madeiras' }">
                             Madeiras Brasileiras
@@ -853,7 +853,6 @@ const openPortfolio = ref(false)
     position: sticky;
     background-color: rgba(255, 255, 255, 0.568);
     backdrop-filter: blur(10px);
-    padding-left: 10px;
     border-radius: 5px;
     top: 5px;
     font-weight: 300;
@@ -882,7 +881,7 @@ const openPortfolio = ref(false)
     top: 100%;
     left: -70px;
     transform: translateX(-50%);
-    min-width: 250px;
+    min-width: 220px;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -901,7 +900,7 @@ const openPortfolio = ref(false)
 
 .submenu2 a {
     padding: 9px 16px;
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: none;
     text-align: start;
 }

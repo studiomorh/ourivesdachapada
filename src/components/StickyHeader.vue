@@ -12,7 +12,7 @@
                 Portfólio
             </a>
 
-            <div class="submenu">
+            <div class="submenu2">
 
                 <RouterLink to="/portfolio">
                     Portfólio Completo
@@ -68,13 +68,13 @@ const openPortfolio = ref(false)
     position: relative;
 }
 
-.submenu {
+.submenu2 {
     position: absolute;
     top: 100%;
-    margin-top: 5px;
-    left: 100%;
+    margin-top: 3px;
+    left: 90%;
     transform: translateX(-50%);
-    min-width: 250px;
+    min-width: 219px;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -84,16 +84,16 @@ const openPortfolio = ref(false)
     transition: .25s;
 }
 
-.portfolio-menu:hover .submenu {
+.portfolio-menu:hover .submenu2 {
     opacity: 1;
     visibility: visible;
     background-color: rgba(255, 255, 255, 0.952);
     backdrop-filter: blur(10px);
 }
 
-.submenu a {
+.submenu2 a {
     padding: 9px 16px;
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: none;
     text-align: start;
 }
