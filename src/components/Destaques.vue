@@ -46,9 +46,9 @@
                             originários do Brasil.
                         </p>
                     </div>
-                    <div class="flex md:hidden px-3">
+                    <div class="flex md:hidden px-0">
                         <video ref="video" autoplay muted loop playsinline preload="auto"
-                            class="hero-video mb-1 h-full w-full object-cover">
+                            class="hero-video h-full w-full object-cover">
                             <source src="/images/portfolio/hero.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -62,7 +62,7 @@
                     </div>
                 </div>
             </div>
-            <div class="md:flex hidden px-3 max-w-[1210px]">
+            <div class="md:flex hidden max-w-[1210px]">
                 <video ref="video" autoplay muted loop playsinline preload="auto"
                     class="hero-video mb-1 h-full w-full object-cover">
                     <source src="/images/portfolio/hero.mp4" type="video/mp4">
@@ -70,7 +70,7 @@
 
 
             </div>
-            <div class="flex flex-col gap-1 max-w-[1210px] px-3 mb-30">
+            <div class="flex flex-col gap-1 max-w-[1210px] px-0 mb-30">
                 <div class="w-full flex gap-1 max-h-[300px] overflow-hidden">
                     <img src="/images/portfolio/sambura2.jpg" class="w-1/2 object-cover" />
                     <img src="/images/portfolio/sambura5.png" class="w-1/2 object-cover" />

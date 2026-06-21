@@ -1,5 +1,5 @@
 <template>
-    <nav>
+    <nav class="items-center">
         <RouterLink to="/">Início</RouterLink>
 
         <RouterLink to="/o-ourives">
@@ -7,46 +7,61 @@
         </RouterLink>
 
         <div class="portfolio-menu">
-            <RouterLink to="/portfolio">
+
+            <a class="menu-title a" @click="openPortfolio = !openPortfolio">
                 Portfólio
-            </RouterLink>
+            </a>
 
             <div class="submenu">
-                <RouterLink to="/portfolio/#madeiras">
+
+                <RouterLink to="/portfolio">
+                    Portfólio Completo
+                </RouterLink>
+
+                <RouterLink :to="{ path: '/portfolio', hash: '#madeiras' }">
                     Madeiras Brasileiras
                 </RouterLink>
 
-                <RouterLink to="/portfolio/#fibras">
+                <RouterLink :to="{ path: '/portfolio', hash: '#fibras' }">
                     Fibras e Tramas
                 </RouterLink>
 
-                <RouterLink to="/portfolio/#gemas">
+                <RouterLink :to="{ path: '/portfolio', hash: '#gemas' }">
                     Gemas e Metais
                 </RouterLink>
 
-                <RouterLink to="/portfolio/#metais">
+                <RouterLink :to="{ path: '/portfolio', hash: '#metais' }">
                     Metais Nobres
                 </RouterLink>
 
-                <RouterLink to="/portfolio/#classicos">
+                <RouterLink :to="{ path: '/portfolio', hash: '#classicos' }">
                     Clássicos Essenciais
                 </RouterLink>
 
-                <RouterLink to="/portfolio/#natureza">
+                <RouterLink :to="{ path: '/portfolio', hash: '#natureza' }">
                     Natureza Bruta
                 </RouterLink>
 
-                <RouterLink to="/portfolio/#projetos">
+                <RouterLink :to="{ path: '/portfolio', hash: '#projetos' }">
                     Projetos Especiais
                 </RouterLink>
+
             </div>
+
         </div>
 
-        <a href="/#contato">
+        <a class="a items-center h-fit w-fit mb-0 p-0" href="/#contato">
             Contato
         </a>
+
     </nav>
 </template>
+
+<script setup>
+import { ref } from 'vue'
+
+const openPortfolio = ref(false)
+</script>
 
 <style scoped>
 .portfolio-menu {
@@ -80,5 +95,11 @@
     font-size: 15px;
     text-decoration: none;
     text-align: start;
+}
+
+.menu-title {
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 </style>

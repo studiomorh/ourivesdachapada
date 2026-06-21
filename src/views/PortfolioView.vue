@@ -34,7 +34,7 @@
                 <!--MADEIRAS BRASILEIRAS-->
                 <div class="trigger-titulo" data-titulo="MADEIRAS BRASILEIRAS"></div>
 
-                <div class="madeiras-gallery flex flex-col gap-1">
+                <section class="madeiras-gallery flex flex-col gap-1" id="madeiras">
 
                     <!--MOBILE-->
                     <div class="flex flex-col md:hidden">
@@ -230,13 +230,13 @@
                     </div>
 
 
-                </div>
+                </section>
 
 
                 <!--FIBRAS E TRAMAS-->
                 <div class="trigger-titulo mt-20" data-titulo="FIBRAS E TRAMAS"></div>
 
-                <div class="fibras-gallery flex flex-col gap-1">
+                <section class="fibras-gallery flex flex-col gap-1" id="fibras">
                     <div class="w-full flex flex-col sm:flex-row gap-1 sm:max-h-[600px]">
                         <div class="w-full sm:w-5/7">
                             <img src="/images/portfolio/fibras/f1.jpg" class="h-full w-full object-cover object-bottom">
@@ -318,13 +318,13 @@
                         </div>
                     </div>
 
-                </div>
+                </section>
 
 
                 <!--GEMAS E METAIS-->
                 <div class="trigger-titulo mt-20" data-titulo="GEMAS E METAIS"></div>
 
-                <div class="gemas-gallery flex flex-col gap-1">
+                <section class="gemas-gallery flex flex-col gap-1" id="gemas">
                     <div class="w-full flex gap-1">
                         <div class="w-1/2 md:w-1/3 flex flex-col gap-1">
                             <img src="/images/portfolio/gemas/g1.jpg" class="h-[300px] w-full object-cover">
@@ -453,21 +453,15 @@
                         <img src="/images/portfolio/gemas/g41.png" class="h-[465px] w-full object-cover">
                         <img src="/images/portfolio/gemas/g45.png" class="h-[535px] w-full object-cover object-right">
                     </div>
-                </div>
+                </section>
 
 
-
-
-
-
-                <!-- ---------------
-                    METAIS NOBRES
-                 -------------------->
+                <!-- METAIS NOBRES -->
 
 
                 <div class="trigger-titulo mt-20" data-titulo="METAIS NOBRES"></div>
 
-                <div class="metais-gallery flex flex-col gap-1">
+                <section class="metais-gallery flex flex-col gap-1" id="metais">
 
                     <div class="w-full flex flex-col md:flex-row gap-1 md:max-h-[500px]">
 
@@ -528,13 +522,13 @@
                         <img src="/images/portfolio/metais/me12.png" class="h-[400px] w-full object-cover">
                         <img src="/images/portfolio/metais/me16.png" class="h-[298px] w-full object-cover">
                     </div>
-                </div>
+                </section>
 
 
                 <!-- CLÁSSICOS ESSENCIAIS -->
                 <div class="trigger-titulo mt-20" data-titulo="CLÁSSICOS ESSENCIAIS"></div>
 
-                <div class="classicos-gallery flex flex-col gap-1">
+                <section class="classicos-gallery flex flex-col gap-1" id="classicos">
                     <div class="w-full">
                         <img src="/images/portfolio/classicos/c1.png"
                             class="h-[200px] md:h-[500px] w-full object-cover">
@@ -605,14 +599,14 @@
                         <img src="/images/portfolio/classicos/c19.png" class="h-[415px] w-full object-cover">
                         <img src="/images/portfolio/classicos/c22.png" class="h-[319px] w-full object-cover">
                     </div>
-                </div>
+                </section>
 
 
 
                 <!-- NATUREZA BRUTA -->
                 <div class="trigger-titulo mt-20" data-titulo="NATUREZA BRUTA"></div>
 
-                <div class="natureza-gallery flex flex-col gap-1">
+                <section class="natureza-gallery flex flex-col gap-1" id="natureza">
                     <div class="w-full flex gap-1">
 
                         <div class="w-1/2 md:w-1/3 flex flex-col gap-1">
@@ -650,15 +644,15 @@
                         <img src="/images/portfolio/natureza/n3.jpg" class="h-[500px] w-full object-cover">
                         <img src="/images/portfolio/natureza/n6.jpg" class="h-[200px] w-full object-cover object-top">
                     </div>
-                </div>
-
+                </section>
 
 
 
                 <!-- PROJETOS ESPECIAIS -->
                 <div class="trigger-titulo mt-20" data-titulo="PROJETOS ESPECIAIS"></div>
 
-                <div class="projetos-gallery flex flex-col gap-1">
+                <section class="projetos-gallery flex flex-col gap-1" id="projetos">
+
 
                     <div class="w-full flex flex-col gap-1">
                         <img src="/images/portfolio/projetos/p1.jpg" class="max-h-[700px] w-full object-cover">
@@ -716,7 +710,8 @@
                                 class="h-[200px] md:h-[300px] w-full object-cover object-bottom">
                         </div>
                     </div>
-                </div>
+                </section>
+
             </div>
         </div>
 
