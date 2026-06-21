@@ -48,7 +48,7 @@
 
     </div>
     <div class="header-div">
-        <Header class="header2 w-fit" style="border-top: 1px solid lightgray;" />
+        <StickyHeader class="header2 px-0 sm:px-4 py-1 w-fit" style="border-top: 1px solid lightgray;" />
     </div>
 
     <div class="bg-home w-full">
@@ -320,12 +320,19 @@
         <div class="contact mt-20 flex justify-center items-center text-center">
             <div class="contact-form w-[90%] sm:w-[600px]">
                 <div class="social-buttons flex gap-4 mt-5">
-                    <div class="instagram">
-                        <img src="/images/instagram.png" class="w-[27px] sm:w-[30px]" />
-                    </div>
-                    <div class="whatsapp">
-                        <img src="/images/whatsapp.png" class="w-[27px] sm:w-[30px]" />
-                    </div>
+
+                    <a href="https://www.instagram.com/ourivesdachapada/" target="_blank"
+                        style="padding: 0px !important;">
+                        <div class="instagram">
+                            <img src="/images/instagram.png" class="w-[27px] sm:w-[30px]" />
+                        </div>
+                    </a>
+                    <a href="https://wa.me/557598621044?text=Olá!%20Vim%20através%20do%20site%20da%20Ourives%20da%20Chapada%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20peças."
+                        target="_blank" style="padding: 0px !important;">
+                        <div class="whatsapp">
+                            <img src="/images/whatsapp.png" class="w-[27px] sm:w-[30px]" />
+                        </div>
+                    </a>
                 </div>
                 <span class="text-[50px] sm:text-[60px]" style="letter-spacing: 2px;">CONTATO</span>
                 <span class="text-[16px] sm:text-[18px] w-[80%] mb-8">Para aquisições, exposições, parcerias ou outras
@@ -354,6 +361,7 @@
 
 <script setup>
 import Header from '../components/Header.vue'
+import StickyHeader from '../components/StickyHeader.vue'
 import { ref } from 'vue'
 
 const video = ref(null)

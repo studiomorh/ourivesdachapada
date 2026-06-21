@@ -41,13 +41,16 @@
 
 .header2 {
   display: flex;
-  background-color: rgba(255, 255, 255, 0.568);
+  background-color: rgba(255, 255, 255, 0.829);
   backdrop-filter: blur(10px);
   border-radius: 0px 0px 10px 10px;
   gap: 0px;
   align-items: center;
-  padding: 6px 0px;
   color: rgb(29, 29, 29) !important;
+}
+
+.submenu2 {
+      background: #ffffff9d;
 }
 
 .home-hero {

@@ -27,8 +27,44 @@
             <div class="destaque-text text-start w-full pl-5">
                 // PORTFÓLIO
             </div>
-            <div class="titulo-flutuante text-start max-w-[98%] text-[25px] sm:text-[35px] w-full">
-                {{ tituloAtual }}
+            <div class="div-flutuante flex justify-between items-center max-w-[98%] w-full">
+                <div class="titulo-flutuante text-start text-[22px] px-2 sm:px-5 sm:text-[35px] "> {{ tituloAtual }}
+                </div>
+                <div class="portfolio-menu2">
+                    <a class="menu-title2" @click="openPortfolio = !openPortfolio"><img src="/images/down.png"
+                            class="w-[35px]" /> </a>
+                    <div class="submenu2">
+
+                        <RouterLink :to="{ path: '/portfolio', hash: '#madeiras' }">
+                            Madeiras Brasileiras
+                        </RouterLink>
+
+                        <RouterLink :to="{ path: '/portfolio', hash: '#fibras' }">
+                            Fibras e Tramas
+                        </RouterLink>
+
+                        <RouterLink :to="{ path: '/portfolio', hash: '#gemas' }">
+                            Gemas e Metais
+                        </RouterLink>
+
+                        <RouterLink :to="{ path: '/portfolio', hash: '#metais' }">
+                            Metais Nobres
+                        </RouterLink>
+
+                        <RouterLink :to="{ path: '/portfolio', hash: '#classicos' }">
+                            Clássicos Essenciais
+                        </RouterLink>
+
+                        <RouterLink :to="{ path: '/portfolio', hash: '#natureza' }">
+                            Natureza Bruta
+                        </RouterLink>
+
+                        <RouterLink :to="{ path: '/portfolio', hash: '#projetos' }">
+                            Projetos Especiais
+                        </RouterLink>
+
+                    </div>
+                </div>
             </div>
             <div class="px-2 md:px-0">
                 <!--MADEIRAS BRASILEIRAS-->
@@ -808,10 +844,12 @@ onUnmounted(() => {
     )
 
 })
+const openPortfolio = ref(false)
+
 </script>
 
 <style scoped>
-.titulo-flutuante {
+.div-flutuante {
     position: sticky;
     background-color: rgba(255, 255, 255, 0.568);
     backdrop-filter: blur(10px);
@@ -821,7 +859,56 @@ onUnmounted(() => {
     font-weight: 300;
     z-index: 9999;
     color: black;
+}
+
+.titulo-flutuante {
+    position: sticky;
+    border-radius: 5px;
+    top: 5px;
+    font-weight: 300;
+    z-index: 9999;
+    color: black;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+
+.portfolio-menu2 {
+    position: relative;
+}
+
+.submenu2 {
+    position: absolute;
+    top: 100%;
+    left: -70px;
+    transform: translateX(-50%);
+    min-width: 250px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 0px 10px 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .25s;
+}
+
+.portfolio-menu2:hover .submenu2 {
+    opacity: 1;
+    visibility: visible;
+    background-color: rgba(255, 255, 255, 0.952);
+    backdrop-filter: blur(10px);
+}
+
+.submenu2 a {
+    padding: 9px 16px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: start;
+}
+
+.menu-title {
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 </style>
