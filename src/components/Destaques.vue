@@ -1,7 +1,7 @@
     <template>
         <div
-            class="destaques-desktop z-999 relative px-2 mt-[-70px] md:mt-20 w-full justify-center flex flex-col gap-30 items-center">
-            <div class="sambura flex  flex-col md:flex-row gap-1 w-full max-w-[1210px]">
+            class="destaques-desktop z-999 relative px-2 mt-[-70px] md:mt-20 w-full justify-center flex flex-col items-center">
+            <div class="sambura flex flex-col md:flex-row gap-1 w-full max-w-[1210px]">
                 <div class="coluna1 w-full md:w-1/2 text-start">
                     <img src="/images/portfolio/sambura1.jpg" class="mb-4 md:hidden"
                         style="border-radius: 10px 10px 0px 0px;">
@@ -46,32 +46,55 @@
                             originários do Brasil.
                         </p>
                     </div>
-                    <div class="flex flex-col gap-1">
-                        <img src="/images/portfolio/sambura2.jpg" />
-                        <img src="/images/portfolio/sambura5.png" class="w-full max-h-[300px] object-cover" />
+                    <div class="flex md:hidden px-3">
+                        <video ref="video" autoplay muted loop playsinline preload="auto"
+                            class="hero-video mb-1 h-full w-full object-cover">
+                            <source src="/images/portfolio/hero.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <div class="tag hidden md:flex flex-col">
-                        <p>Colar e Brinco</p>
-                        <p>Técnica: Ourivesaria</p>
-                        <p>Materiais: Piaçava, Jacarandá, Prata 950 e Ouro</p>
-                        <p>Dimensões: Colar: 23cm x 18cm | Brincos 5cm x 1cm</p>
-                    </div>
+
                 </div>
-                <div class="coluna2 w-full md:w-1/2 ">
+                <div class="coluna2 w-full md:w-1/2 px-3">
                     <div class="flex flex-col gap-1">
 
                         <img src="/images/portfolio/sambura1.jpg" class="hidden md:flex"
                             style="border-radius: 10px 10px 0px 0px;">
+                    </div>
+                </div>
+            </div>
+            <div class="md:flex hidden px-3 max-w-[1210px]">
+                <video ref="video" autoplay muted loop playsinline preload="auto"
+                    class="hero-video mb-1 h-full w-full object-cover">
+                    <source src="/images/portfolio/hero.mp4" type="video/mp4">
+                </video>
+
+
+            </div>
+            <div class="flex flex-col gap-1 max-w-[1210px] px-3 mb-30">
+                <div class="w-full flex gap-1 max-h-[300px] overflow-hidden">
+                    <img src="/images/portfolio/sambura2.jpg" class="w-1/2 object-cover" />
+                    <img src="/images/portfolio/sambura5.png" class="w-1/2 object-cover" />
+
+                </div>
+
+
+                <div class="w-full flex gap-1 max-h-[400px] overflow-hidden">
+
+                    <div class="flex flex-col w-2/3 max-h-full">
+
                         <img src="/images/portfolio/sambura3.png" />
-                        <img src="/images/portfolio/sambura4.png" class="w-full max-h-[253px] object-cover" />
-                        <div class="tag flex flex-col text-start md:hidden">
-                            <p>Colar e Brinco</p>
-                            <p>Técnica: Ourivesaria</p>
-                            <p>Materiais: Piaçava, Jacarandá, Prata 950 e Ouro</p>
-                            <p>Dimensões: Colar: 23cm x 18cm | Brincos 5cm x 1cm</p>
-                        </div>
 
                     </div>
+                    <div class="flex flex-col w-1/3 min-h-full">
+                        <img src="/images/portfolio/sambura4.png" class="h-full w-full object-cover" />
+                    </div>
+                </div>
+
+                <div class="tag flex-col text-start">
+                    <p>Colar e Brinco</p>
+                    <p>Técnica: Ourivesaria</p>
+                    <p>Materiais: Piaçava, Jacarandá, Prata 950 e Ouro</p>
+                    <p>Dimensões: Colar: 23cm x 18cm | Brincos 5cm x 1cm</p>
                 </div>
             </div>
 
@@ -92,7 +115,8 @@
                             entre matéria-prima, território e memória.
                         </p>
                         <p class="mb-3">
-                            A peça apresenta uma base de prata polida em forma côncava, que acolhe fragmentos de ferro
+                            A peça apresenta uma base de prata polida em forma côncava, que acolhe fragmentos de
+                            ferro
                             bruto
                             oriundos dos antigos garimpos de Igatu, região marcada historicamente pela exploração
                             mineral.
@@ -105,14 +129,17 @@
                         <p class="mb-3">
                             A combinação de materiais reflete a dualidade entre rusticidade e sofisticação, peso e
                             leveza,
-                            opacidade e brilho — contrastes que compõem o universo criativo de Gabriel Macedo. Ao unir
+                            opacidade e brilho — contrastes que compõem o universo criativo de Gabriel Macedo. Ao
+                            unir
                             vestígios da atividade garimpeira com metais preciosos lapidados, o artista propõe uma
-                            joia-objeto que resgata narrativas da paisagem e transforma resíduos em memória sensível.
+                            joia-objeto que resgata narrativas da paisagem e transforma resíduos em memória
+                            sensível.
                         </p>
                         <p>
                             O anel Carumbé é uma peça escultórica que evoca a ancestralidade do gesto minerador,
                             reimaginada
-                            com olhar contemporâneo e sustentável, fiel à prática do artista em valorizar o território e
+                            com olhar contemporâneo e sustentável, fiel à prática do artista em valorizar o
+                            território e
                             a
                             história dos materiais que escolhe.
                         </p>
@@ -162,12 +189,15 @@
                 <div class="coluna2 text-start mt-8 md:mt-15 w-full md:w-1/2  px-3">
                     <div class="paragrafo text-[19px] md:mt-10 mb-10 md:pl-8">
                         <p class="mb-3">
-                            O contraste entre as facetas de prata e pau-brasil é apresentado no anel Ibirapitanga, que
+                            O contraste entre as facetas de prata e pau-brasil é apresentado no anel Ibirapitanga,
+                            que
                             une
                             materiais nobres e resistentes oriundos de diferentes reinos da natureza. O Pau-Brasil,
                             também
-                            chamado de Ibirapitanga pelos povos Tupi, é uma árvore nativa da Mata Atlântica brasileira e
-                            símbolo nacional, admirado e reconhecido por sua madeira avermelhada e de grande resistência
+                            chamado de Ibirapitanga pelos povos Tupi, é uma árvore nativa da Mata Atlântica
+                            brasileira e
+                            símbolo nacional, admirado e reconhecido por sua madeira avermelhada e de grande
+                            resistência
                             e
                             durabilidade, está intrinsecamente ligado à história e à identidade do nosso país.
                         </p>
@@ -183,18 +213,23 @@
                             O intercâmbio de materiais e de diferentes tecnologias de fabricação de joias refletem o
                             repertório de trabalho de Gabriel Macedo. Nascido em uma família com expertise em
                             ourivesaria,
-                            ele vem desenvolvendo, desde seu ateliê no distrito de Igatu, Chapada Diamantina, Bahia, um
-                            trabalho cuidado e atemporal no qual o artista mescla manufatura artesanal com um controle
+                            ele vem desenvolvendo, desde seu ateliê no distrito de Igatu, Chapada Diamantina, Bahia,
+                            um
+                            trabalho cuidado e atemporal no qual o artista mescla manufatura artesanal com um
+                            controle
                             de
                             qualidade rigoroso em todas as etapas de produção das joias, desde a escultura até o
                             acabamento
                             da peça.
                         </p>
                         <p>
-                            O resultado é refletido em suas peças atemporais com forte pesquisa histórica de materiais,
+                            O resultado é refletido em suas peças atemporais com forte pesquisa histórica de
+                            materiais,
                             nas
-                            quais se destacam o design contemporâneo e o emprego de materiais que reverenciam a botânica
-                            brasileira. Assim o artista joalheiro vem consolidando seu lugar de atuação e reconhecimento
+                            quais se destacam o design contemporâneo e o emprego de materiais que reverenciam a
+                            botânica
+                            brasileira. Assim o artista joalheiro vem consolidando seu lugar de atuação e
+                            reconhecimento
                             pela habilidade em mesclar fibras, coco e madeira com metais nobres e diamantes, cuja
                             expressão
                             artística exalta a natureza e a história do Brasil.

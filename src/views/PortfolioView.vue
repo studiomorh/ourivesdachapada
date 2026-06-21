@@ -384,31 +384,49 @@
                     </div>
 
                     <div class="w-full flex gap-1">
-                        <div class="w-1/3 flex flex-col gap-1">
-                            <img src="/images/portfolio/gemas/g17.jpg" class="h-[645px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g20.jpg" class="h-[315px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g23.jpg" class="h-[415px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g26.jpg" class="h-[555px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g30.jpg" class="h-[500px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g33.jpg" class="h-[500px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g38.jpg" class="h-[270px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g39.png" class="h-[335px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g42.jpg" class="h-[270px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g43.png" class="h-[490px] w-full object-cover">
+                        <div class="w-1/2 md:w-1/3 flex flex-col gap-1">
+                            <img src="/images/portfolio/gemas/g17.jpg"
+                                class="h-[400px] md:h-[645px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g20.jpg"
+                                class="h-[150px] md:h-[315px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g23.jpg"
+                                class="h-[300px] md:h-[415px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g26.jpg"
+                                class="h-[300px] md:h-[555px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g30.jpg"
+                                class="h-[200px] md:h-[500px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g33.jpg"
+                                class="h-[250px] md:h-[500px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g38.jpg"
+                                class="h-[120px] md:h-[270px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g39.png"
+                                class="h-[200px] md:h-[335px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g42.jpg"
+                                class="h-[150px] md:h-[270px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g43.png"
+                                class="h-[200px] md:h-[490px] w-full object-cover">
                         </div>
-                        <div class="w-1/3 flex flex-col gap-1">
-                            <img src="/images/portfolio/gemas/g18.jpg" class="h-[555px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g21.jpg" class="h-[310px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g24.jpg" class="h-[555px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g27.jpg" class="h-[435px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g31.jpg" class="h-[555px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g34.jpg" class="h-[345px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g37.jpg" class="h-[445px] w-full object-cover">
+                        <div class="w-1/2 md:w-1/3 flex flex-col gap-1">
+                            <img src="/images/portfolio/gemas/g18.jpg"
+                                class="h-[334px] md:h-[555px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g21.jpg"
+                                class="h-[140px] md:h-[310px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g24.jpg"
+                                class="h-[400px] md:h-[555px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g27.jpg"
+                                class="h-[300px] md:h-[435px] w-full object-cover object-left">
+                            <img src="/images/portfolio/gemas/g31.jpg"
+                                class="h-[200px] md:h-[555px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g34.jpg"
+                                class="h-[250px] md:h-[345px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g37.jpg"
+                                class="h-[200px] md:h-[445px] w-full object-cover">
                             <img src="/images/portfolio/gemas/g40.png"
-                                class="h-[340px] w-full object-cover object-bottom">
-                            <img src="/images/portfolio/gemas/g44.png" class="h-[759px] w-full object-cover object-top">
+                                class="h-[150px] md:h-[340px] w-full object-cover object-bottom">
+                            <img src="/images/portfolio/gemas/g44.png"
+                                class="h-[300px] md:h-[759px] w-full object-cover object-top">
                         </div>
-                        <div class="w-1/3 flex flex-col gap-1">
+                        <div class="hidden md:w-1/3 md:flex md:flex-col gap-1">
                             <img src="/images/portfolio/gemas/g19.jpg" class="h-[315px] w-full object-cover">
                             <img src="/images/portfolio/gemas/g22.jpg" class="h-[415px] w-full object-cover">
                             <img src="/images/portfolio/gemas/g25.jpg" class="h-[425px] w-full object-cover">
@@ -418,48 +436,83 @@
                             <img src="/images/portfolio/gemas/g35.jpg" class="h-[500px] w-full object-cover">
                             <img src="/images/portfolio/gemas/g36.png" class="h-[315px] w-full object-cover">
                             <img src="/images/portfolio/gemas/g41.png" class="h-[465px] w-full object-cover">
-                            <img src="/images/portfolio/gemas/g45.png" class="h-[835px] w-full object-cover">
+                            <img src="/images/portfolio/gemas/g45.png"
+                                class="h-[835px] w-full object-cover object-right">
                         </div>
+                    </div>
+
+                    <div class="flex flex-col md:hidden w-full gap-1">
+                        <img src="/images/portfolio/gemas/g19.jpg" class="h-[215px] w-full object-cover">
+                        <img src="/images/portfolio/gemas/g22.jpg" class="h-[285px] w-full object-cover">
+                        <img src="/images/portfolio/gemas/g25.jpg" class="h-[425px] w-full object-cover">
+                        <img src="/images/portfolio/gemas/g28.jpg" class="h-[315px] w-full object-cover">
+                        <img src="/images/portfolio/gemas/g29.jpg" class="h-[290px] w-full object-cover">
+                        <img src="/images/portfolio/gemas/g32.jpg" class="h-[340px] w-full object-cover">
+                        <img src="/images/portfolio/gemas/g35.jpg" class="h-[400px] w-full object-cover">
+                        <img src="/images/portfolio/gemas/g36.png" class="h-[315px] w-full object-cover">
+                        <img src="/images/portfolio/gemas/g41.png" class="h-[465px] w-full object-cover">
+                        <img src="/images/portfolio/gemas/g45.png" class="h-[535px] w-full object-cover object-right">
                     </div>
                 </div>
 
 
-                <!-- METAIS NOBRES -->
+
+
+
+
+                <!-- ---------------
+                    METAIS NOBRES
+                 -------------------->
+
+
                 <div class="trigger-titulo mt-20" data-titulo="METAIS NOBRES"></div>
 
                 <div class="metais-gallery flex flex-col gap-1">
-                    <div class="w-full flex gap-1 max-h-[500px]">
-                        <div class="w-2/3">
+
+                    <div class="w-full flex flex-col md:flex-row gap-1 md:max-h-[500px]">
+
+                        <div class="w-full md:w-2/3">
                             <img src="/images/portfolio/metais/me1.jpg"
                                 class="h-full w-full object-cover object-bottom">
 
                         </div>
-                        <div class="w-1/3">
-                            <img src="/images/portfolio/metais/me2.jpg" class="h-full w-full object-cover">
+                        <div class="w-full md:w-1/3">
+                            <img src="/images/portfolio/metais/me2.jpg"
+                                class="h-[400px] md:h-full w-full object-bottom object-cover">
                         </div>
+
                     </div>
 
 
                     <div class="w-full flex gap-1">
 
-                        <div class="w-1/3 flex flex-col gap-1">
+                        <div class="w-1/2 md:w-1/3 flex flex-col gap-1">
                             <img src="/images/portfolio/metais/me3.jpg"
-                                class="h-[260px] w-full object-cover object-top">
-                            <img src="/images/portfolio/metais/me6.jpg" class="h-[300px] w-full object-cover">
-                            <img src="/images/portfolio/metais/me7.jpg" class="h-[500px] w-full object-cover">
-                            <img src="/images/portfolio/metais/me10.png" class="h-[425px] w-full object-cover">
-                            <img src="/images/portfolio/metais/me13.png" class="h-[410px] w-full object-cover">
+                                class="h-[150px] md:h-[260px] w-full object-cover object-top object-left">
+                            <img src="/images/portfolio/metais/me6.jpg"
+                                class="h-[150px] md:h-[300px] w-full object-cover">
+                            <img src="/images/portfolio/metais/me7.jpg"
+                                class="h-[300px] md:h-[500px] w-full object-cover">
+                            <img src="/images/portfolio/metais/me10.png"
+                                class="h-[210px] md:h-[425px] w-full object-cover">
+                            <img src="/images/portfolio/metais/me13.png"
+                                class="h-[190px] md:h-[410px] w-full object-cover object-bottom">
                         </div>
 
-                        <div class="w-1/3 flex flex-col gap-1">
-                            <img src="/images/portfolio/metais/me4.jpg" class="h-[640px] w-full object-cover">
-                            <img src="/images/portfolio/metais/me8.jpg" class="h-[255px] w-full object-cover">
-                            <img src="/images/portfolio/metais/me11.png" class="h-[375px] w-full object-cover">
-                            <img src="/images/portfolio/metais/me14.jpg" class="h-[280px] w-full object-cover">
-                            <img src="/images/portfolio/metais/me15.jpg" class="h-[345px] w-full object-cover">
+                        <div class="w-1/2 md:w-1/3 flex flex-col gap-1">
+                            <img src="/images/portfolio/metais/me4.jpg"
+                                class="h-[340px] md:h-[640px] w-full object-cover">
+                            <img src="/images/portfolio/metais/me8.jpg"
+                                class="h-[100px] md:h-[255px] w-full object-cover">
+                            <img src="/images/portfolio/metais/me11.png"
+                                class="h-[200px] md:h-[375px] w-full object-cover">
+                            <img src="/images/portfolio/metais/me14.jpg"
+                                class="h-[200px] md:h-[280px] w-full object-cover">
+                            <img src="/images/portfolio/metais/me15.jpg"
+                                class="h-[160px] md:h-[345px] w-full object-cover object-left">
                         </div>
 
-                        <div class="w-1/3 flex flex-col gap-1">
+                        <div class="hidden md:w-1/3 md:flex md:flex-col gap-1">
                             <img src="/images/portfolio/metais/me5.jpg"
                                 class="h-[500px] w-full object-cover object-top">
                             <img src="/images/portfolio/metais/me9.jpg" class="h-[500px] w-full object-cover">
@@ -467,6 +520,13 @@
                             <img src="/images/portfolio/metais/me16.png" class="h-[398px] w-full object-cover">
                         </div>
 
+                    </div>
+
+                    <div class="flex flex-col md:hidden w-full gap-1">
+                        <img src="/images/portfolio/metais/me5.jpg" class="h-[400px] w-full object-cover object-bottom">
+                        <img src="/images/portfolio/metais/me9.jpg" class="h-[300px] w-full object-cover">
+                        <img src="/images/portfolio/metais/me12.png" class="h-[400px] w-full object-cover">
+                        <img src="/images/portfolio/metais/me16.png" class="h-[298px] w-full object-cover">
                     </div>
                 </div>
 
@@ -476,37 +536,49 @@
 
                 <div class="classicos-gallery flex flex-col gap-1">
                     <div class="w-full">
-                        <img src="/images/portfolio/classicos/c1.png" class="h-[500px] w-full object-cover">
+                        <img src="/images/portfolio/classicos/c1.png"
+                            class="h-[200px] md:h-[500px] w-full object-cover">
                     </div>
 
 
                     <div class="w-full flex gap-1">
 
-                        <div class="w-1/3 flex flex-col gap-1">
+                        <div class="w-1/2 md:w-1/3 flex flex-col gap-1">
                             <img src="/images/portfolio/classicos/c2.jpg"
-                                class="h-[500px] w-full object-cover object-top">
-                            <img src="/images/portfolio/classicos/c5.jpg" class="h-[600px] w-full object-cover">
-                            <img src="/images/portfolio/classicos/c9.jpg" class="h-[310px] w-full object-cover">
+                                class="h-[300px] md:h-[500px] w-full object-cover object-top">
+                            <img src="/images/portfolio/classicos/c5.jpg"
+                                class="h-[300px] md:h-[600px] w-full object-cover">
+                            <img src="/images/portfolio/classicos/c9.jpg"
+                                class="h-[200px] md:h-[310px] w-full object-cover object-right">
                             <img src="/images/portfolio/classicos/c12.jpg"
-                                class="h-[310px] w-full object-cover object-top">
-                            <img src="/images/portfolio/classicos/c14.jpg" class="h-[500px] w-full object-cover">
-                            <img src="/images/portfolio/classicos/c17.jpg" class="h-[260px] w-full object-cover">
+                                class="h-[130px] md:h-[310px] w-full object-cover object-top">
+                            <img src="/images/portfolio/classicos/c14.jpg"
+                                class="hidden md:flex md:h-[500px] w-full object-cover">
+                            <img src="/images/portfolio/classicos/c17.jpg"
+                                class="h-[200px] md:h-[260px] w-full object-cover">
                             <img src="/images/portfolio/classicos/c20.png" class="h-[260px] w-full object-cover">
-                            <img src="/images/portfolio/classicos/c23.png" class="h-[250px] w-full object-cover">
+                            <img src="/images/portfolio/classicos/c23.png"
+                                class="h-[120px] md:h-[250px] w-full object-cover ">
                         </div>
 
-                        <div class="w-1/3 flex flex-col gap-1">
+                        <div class="w-1/2 md:w-1/3 flex flex-col gap-1">
                             <img src="/images/portfolio/classicos/c3.png"
-                                class="h-[240px] w-full object-cover object-top">
-                            <img src="/images/portfolio/classicos/c6.jpg" class="h-[475px] w-full object-cover">
-                            <img src="/images/portfolio/classicos/c8.jpg" class="h-[450px] w-full object-cover">
-                            <img src="/images/portfolio/classicos/c10.jpg" class="h-[555px] w-full object-cover">
-                            <img src="/images/portfolio/classicos/c15.jpg" class="h-[550px] w-full object-cover">
-                            <img src="/images/portfolio/classicos/c18.jpg" class="h-[360px] w-full object-cover">
-                            <img src="/images/portfolio/classicos/c21.png" class="h-[364px] w-full object-cover">
+                                class="h-[170px] md:h-[240px] w-full object-cover object-top">
+                            <img src="/images/portfolio/classicos/c6.jpg"
+                                class="h-[300px] md:h-[475px] w-full object-cover">
+                            <img src="/images/portfolio/classicos/c8.jpg"
+                                class="h-[300px] md:h-[450px] w-full object-cover">
+                            <img src="/images/portfolio/classicos/c10.jpg"
+                                class="h-[300px] md:h-[555px] w-full object-cover">
+                            <img src="/images/portfolio/classicos/c15.jpg"
+                                class="h-[250px] md:h-[550px] w-full object-cover">
+                            <img src="/images/portfolio/classicos/c18.jpg"
+                                class="h-[194px] md:h-[360px] w-full object-cover">
+                            <img src="/images/portfolio/classicos/c21.png"
+                                class="hidden md:flex md:h-[364px] w-full object-cover">
                         </div>
 
-                        <div class="w-1/3 flex flex-col gap-1">
+                        <div class="hidden md:w-1/3 md:flex md:flex-col gap-1">
                             <img src="/images/portfolio/classicos/c4.jpg"
                                 class="h-[465px] w-full object-cover object-top">
                             <img src="/images/portfolio/classicos/c7.jpg" class="h-[540px] w-full object-cover">
@@ -518,6 +590,21 @@
                         </div>
 
                     </div>
+
+                    <div class="flex flex-col md:hidden w-full gap-1">
+                        <img src="/images/portfolio/classicos/c14.jpg" class="h-[500px] md:hidden w-full object-cover">
+
+                        <img src="/images/portfolio/classicos/c21.png" class="md:hidden h-[364px] w-full object-cover">
+                        <img src="/images/portfolio/classicos/c4.jpg"
+                            class="h-[365px] w-full object-cover object-bottom">
+                        <img src="/images/portfolio/classicos/c7.jpg" class="h-[340px] w-full object-cover">
+                        <img src="/images/portfolio/classicos/c11.jpg" class="h-[245px] w-full object-cover object-top">
+                        <img src="/images/portfolio/classicos/c13.jpg"
+                            class="h-[375px] w-full object-cover object-bottom">
+                        <img src="/images/portfolio/classicos/c16.png" class="h-[455px] w-full object-cover">
+                        <img src="/images/portfolio/classicos/c19.png" class="h-[415px] w-full object-cover">
+                        <img src="/images/portfolio/classicos/c22.png" class="h-[319px] w-full object-cover">
+                    </div>
                 </div>
 
 
@@ -528,17 +615,21 @@
                 <div class="natureza-gallery flex flex-col gap-1">
                     <div class="w-full flex gap-1">
 
-                        <div class="w-1/3 flex flex-col gap-1">
-                            <img src="/images/portfolio/natureza/n1.jpg" class="h-[420px] w-full object-cover">
-                            <img src="/images/portfolio/natureza/n4.jpg" class="h-[380px] w-full object-cover">
+                        <div class="w-1/2 md:w-1/3 flex flex-col gap-1">
+                            <img src="/images/portfolio/natureza/n1.jpg"
+                                class="h-[200px] md:h-[420px] w-full object-cover">
+                            <img src="/images/portfolio/natureza/n4.jpg"
+                                class="h-[200px] md:h-[380px] w-full object-cover">
                         </div>
 
-                        <div class="w-1/3 flex flex-col gap-1">
-                            <img src="/images/portfolio/natureza/n2.jpg" class="h-[300px] w-full object-cover">
-                            <img src="/images/portfolio/natureza/n5.jpg" class="h-[500px] w-full object-cover">
+                        <div class="w-1/2 md:w-1/3 flex flex-col gap-1">
+                            <img src="/images/portfolio/natureza/n2.jpg"
+                                class="h-[200px] md:h-[300px] w-full object-cover">
+                            <img src="/images/portfolio/natureza/n5.jpg"
+                                class="h-[200px] md:h-[500px] w-full object-cover">
                         </div>
 
-                        <div class="w-1/3 flex flex-col gap-1">
+                        <div class="hidden md:w-1/3 md:flex md:flex-col gap-1">
                             <img src="/images/portfolio/natureza/n3.jpg" class="h-[500px] w-full object-cover">
                             <img src="/images/portfolio/natureza/n6.jpg" class="h-[300px] w-full object-cover">
                         </div>
@@ -553,6 +644,11 @@
                         <div class="w-1/3">
                             <img src="/images/portfolio/natureza/n8.jpg" class="h-full w-full object-cover">
                         </div>
+                    </div>
+
+                    <div class="flex flex-col md:hidden w-full gap-1">
+                        <img src="/images/portfolio/natureza/n3.jpg" class="h-[500px] w-full object-cover">
+                        <img src="/images/portfolio/natureza/n6.jpg" class="h-[200px] w-full object-cover object-top">
                     </div>
                 </div>
 
@@ -569,8 +665,8 @@
                         <img src="/images/portfolio/projetos/p2.jpg" class="max-h-[600px] w-full object-cover">
                     </div>
 
-                    <div class="w-full flex gap-1">
-                        <div class="w-1/2 flex flex-col gap-1">
+                    <div class="w-full flex gap-1 flex-col md:flex-row">
+                        <div class="w-full md:w-1/2 flex flex-col gap-1">
                             <img src="/images/portfolio/projetos/p3.jpg"
                                 class="h-full w-full object-cover object-bottom">
                             <img src="/images/portfolio/projetos/p5.jpg"
@@ -586,37 +682,38 @@
                             <img src="/images/portfolio/projetos/p17.jpg"
                                 class="h-full w-full object-cover object-bottom">
                         </div>
-                        <div class="w-1/2 flex flex-col gap-1">
+                        <div class="w-full md:w-1/2 flex flex-col gap-1">
                             <img src="/images/portfolio/projetos/p4.jpg"
-                                class="h-[415px] w-full object-cover object-bottom">
+                                class="h-full md:h-[415px] w-full object-cover object-bottom">
                             <img src="/images/portfolio/projetos/p6.jpg"
-                                class="h-[415px] w-full object-cover object-bottom">
+                                class="h-full md:h-[415px] w-full object-cover object-bottom">
                             <img src="/images/portfolio/projetos/p8.png"
-                                class="h-[1250px] w-full object-cover object-bottom">
+                                class="h-full md:h-[1250px] w-full object-cover object-bottom">
                             <video ref="video" autoplay muted loop playsinline preload="auto" @play="started = true"
-                                class="hero-video h-[95vh] w-full object-cover">
+                                class="hero-video  h-full md:h-[95vh] w-full object-cover">
                                 <source src="/images/portfolio/projetos/projeto.mp4" type="video/mp4">
                             </video>
                         </div>
                     </div>
 
                     <div class="w-full flex flex-col gap-1">
-                        <img src="/images/portfolio/projetos/p12.jpg" class="max-h-[700px] w-full object-cover">
+                        <img src="/images/portfolio/projetos/p12.jpg"
+                            class="h-[500px] md:max-h-[700px] w-full object-cover">
                     </div>
 
 
-                    <div class="w-full flex gap-1">
-                        <div class="w-1/2 flex flex-col gap-1">
+                    <div class="w-full flex flex-col md:flex-row gap-1">
+                        <div class="w-full md:w-1/2 flex flex-col gap-1">
                             <img src="/images/portfolio/projetos/p13.jpg"
-                                class="h-[300px] w-full object-cover object-bottom">
+                                class="h-[200px] md:h-[300px] w-full object-cover object-bottom">
                             <img src="/images/portfolio/projetos/p15.jpg"
-                                class="h-[300px] w-full object-cover object-bottom">
+                                class="h-[200px] md:h-[300px] w-full object-cover object-bottom">
                         </div>
-                        <div class="w-1/2 flex flex-col gap-1">
+                        <div class="w-full md:w-1/2 flex flex-col gap-1">
                             <img src="/images/portfolio/projetos/p14.jpg"
-                                class="h-[300px] w-full object-cover object-bottom">
+                                class="h-[200px] md:h-[300px] w-full object-cover object-bottom">
                             <img src="/images/portfolio/projetos/p16.jpg"
-                                class="h-[300px] w-full object-cover object-bottom">
+                                class="h-[200px] md:h-[300px] w-full object-cover object-bottom">
                         </div>
                     </div>
                 </div>
