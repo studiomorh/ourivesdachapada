@@ -27,45 +27,36 @@
             <div class="destaque-text text-start w-full pl-5">
                 // PORTFÓLIO
             </div>
-            <div class="div-flutuante flex justify-between items-center max-w-[95%] sm:max-w-[98%] w-full">
-                <div class="titulo-flutuante text-start text-[22px] px-2 sm:px-5 sm:text-[35px] "> {{ tituloAtual }}
-                </div>
-                <div class="portfolio-menu2">
-                    <a class="menu-title2" @click="openPortfolio = !openPortfolio"><img src="/images/down.png"
-                            class="w-[30px] sm:w-[35px]" /> </a>
-                    <div class="submenu2 text-[20px]">
 
-                        <RouterLink :to="{ path: '/portfolio', hash: '#madeiras' }">
-                            Madeiras Brasileiras
-                        </RouterLink>
+            <div class="div-flutuante px-2 sm:px-5 flex justify-between items-center max-w-[95%] sm:max-w-[98%] w-full">
 
-                        <RouterLink :to="{ path: '/portfolio', hash: '#fibras' }">
-                            Fibras e Tramas
-                        </RouterLink>
+                <div class="titulo-flutuante text-start text-[22px]
+                sm:text-[35px]"> {{ tituloAtual }}</div>
 
-                        <RouterLink :to="{ path: '/portfolio', hash: '#gemas' }">
-                            Gemas e Metais
-                        </RouterLink>
 
-                        <RouterLink :to="{ path: '/portfolio', hash: '#metais' }">
-                            Metais Nobres
-                        </RouterLink>
+                <div class="portfolio-menu3 flex items-center justify-end">
 
-                        <RouterLink :to="{ path: '/portfolio', hash: '#classicos' }">
-                            Clássicos Essenciais
-                        </RouterLink>
 
-                        <RouterLink :to="{ path: '/portfolio', hash: '#natureza' }">
-                            Natureza Bruta
-                        </RouterLink>
+                    <button class="menu-title2" @click="openPortfolio = !openPortfolio">
+                        <img src="/images/down.png" class="arrow" :class="{ 'arrow-open': openPortfolio }">
+                    </button>
 
-                        <RouterLink :to="{ path: '/portfolio', hash: '#projetos' }">
-                            Projetos Especiais
-                        </RouterLink>
+                    <div class="submenu3 text-[13px] sm:text-[20px]" :class="{ 'submenu-open': openPortfolio }">
+                        <a href="#madeiras">Madeiras Brasileiras</a>
+                        <a href="#fibras">Fibras e Tramas</a>
+                        <a href="#gemas">Gemas e Metais</a>
+                        <a href="#metais">Metais Nobres</a>
+                        <a href="#classicos">Clássicos Essenciais</a>
+                        <a href="#natureza">Natureza Bruta</a>
+                        <a href="#projetos">Projetos Especiais</a>
 
                     </div>
                 </div>
             </div>
+
+
+
+            <!-- PORTFÓLIO -->
             <div class="px-2 md:px-0">
                 <!--MADEIRAS BRASILEIRAS-->
                 <div class="trigger-titulo" data-titulo="MADEIRAS BRASILEIRAS"></div>
@@ -753,11 +744,10 @@
 
 
 
-
-
-
-
     </div>
+    <button v-show="showScrollTop" @click="scrollToTop" class="scroll-top">
+        ↑
+    </button>
 
 </template>
 
@@ -767,6 +757,19 @@
 import Header from '../components/Header.vue'
 import { ref, onMounted, onUnmounted } from 'vue'
 import Destaques from '../components/Destaques.vue'
+
+const showScrollTop = ref(false)
+
+const handleScroll = () => {
+    showScrollTop.value = window.scrollY > 500
+}
+
+const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
 
 const tituloAtual = ref('MADEIRAS BRASILEIRAS')
 
@@ -871,12 +874,20 @@ const openPortfolio = ref(false)
     letter-spacing: 2px;
 }
 
+.arrow {
+    width: 35px;
+    transition: transform .3s ease;
+}
 
-.portfolio-menu2 {
+.arrow-open {
+    transform: rotate(180deg);
+}
+
+.portfolio-menu3 {
     position: relative;
 }
 
-.submenu2 {
+.submenu3 {
     position: absolute;
     top: 100%;
     left: -70px;
@@ -888,19 +899,20 @@ const openPortfolio = ref(false)
     border-radius: 10px 0px 10px 10px;
     opacity: 0;
     visibility: hidden;
-    transition: .25s;
+    transition: opacity .1s ease,
+        visibility .1s ease;
 }
 
-.portfolio-menu2:hover .submenu2 {
+
+.submenu-open {
     opacity: 1;
     visibility: visible;
-    background-color: rgba(255, 255, 255, 0.952);
+    background-color: rgba(255, 255, 255, .95);
     backdrop-filter: blur(10px);
 }
 
-.submenu2 a {
+.submenu3 a {
     padding: 9px 16px;
-    font-size: 13px;
     text-decoration: none;
     text-align: start;
 }
@@ -909,5 +921,25 @@ const openPortfolio = ref(false)
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    background: rgba(19, 19, 19, 0.85);
+    backdrop-filter: blur(10px);
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .3s;
+    z-index: 9999;
+}
+
+.scroll-top:hover {
+    transform: translateY(-3px);
 }
 </style>

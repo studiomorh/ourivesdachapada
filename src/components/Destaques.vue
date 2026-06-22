@@ -11,7 +11,7 @@
                     <div class="destaque-title px-3">
                         SAMBURÁ
                     </div>
-                    <div class="paragrafo text-[19px] mt-5 mb-10 md:pr-8 px-3">
+                    <div class="paragrafo text-[17px] sm:text-[19px] mt-5 mb-10 md:pr-8 px-3">
                         <p class="mb-3">
                             O conjunto Samburá é composto por colar com pendente e dois brincos. Inspiradas nas
                             ancestrais
@@ -106,7 +106,7 @@
                     <div class="destaque-title px-3">
                         CARUMBÉ
                     </div>
-                    <div class="paragrafo text-[19px] mt-5 mb-10 md:pr-8 px-3">
+                    <div class="paragrafo text-[17px] mt-5 mb-5 lg:mb-20 md:pr-8 px-3">
                         <p class="mb-3">
                             Inspirado na ferramenta utilizada no garimpo — o carumbé, vasilha cônica empregada na
                             lavagem de
@@ -146,7 +146,7 @@
                     </div>
 
                 </div>
-                <div class="coluna2 w-full md:w-1/2 text-start w-1/2">
+                <div class="coluna2 mb-20 w-full md:w-1/2 text-start w-1/2">
                     <div class="flex flex-col gap-1">
 
                         <img src="/images/portfolio/carumbe.png" style="border-radius: 10px 10px 0px 0px;">
@@ -187,7 +187,7 @@
                     </div>
                 </div>
                 <div class="coluna2 text-start mt-8 md:mt-15 w-full md:w-1/2  px-3">
-                    <div class="paragrafo text-[19px] md:mt-10 mb-10 md:pl-8">
+                    <div class="paragrafo text-[17px] sm:text-[19px] md:mt-10 mb-10 md:pl-8">
                         <p class="mb-3">
                             O contraste entre as facetas de prata e pau-brasil é apresentado no anel Ibirapitanga,
                             que

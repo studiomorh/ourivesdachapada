@@ -2,7 +2,7 @@
 
     <section class="home-hero">
 
-        <img src="/images/hero-poster.jpg" class="h-[85vh] object-cover" />
+        <img src="/images/hero-poster.jpg" class="h-[85vh] object-cover object-right" />
 
         <div class="home-hero-overlay2 h-[85vh]"></div>
 
@@ -172,6 +172,7 @@
                 </div>
 
                 <div class="flex flex-col gap-1">
+
                     <img src="/images/ourives/roll5.jpg" style="border-radius: 10px 10px 0px 0px;">
                     <img src="/images/ourives/roll6.jpg">
                     <img src="/images/ourives/roll7.jpg">

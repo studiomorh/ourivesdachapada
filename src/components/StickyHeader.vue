@@ -93,7 +93,7 @@ const openPortfolio = ref(false)
 
 .submenu2 a {
     padding: 9px 16px;
-    font-size: 13px;
+    font-size: 14px;
     text-decoration: none;
     text-align: start;
 }

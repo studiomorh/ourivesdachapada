@@ -8,7 +8,7 @@
             <source src="/images/portfolio/hero.mp4" type="video/mp4">
         </video>
 
-        <button v-if="!started" @click="playVideo" class="play-button">
+        <button v-if="!started" @click="playVideo" class="play-button mt-[-10px]">
             ▶
         </button>
 
@@ -148,6 +148,11 @@
                 <!-- PRIMEIRA LINHA MOBILE -->
                 <div class="w-full gallery-item">
                     <img src="/images/home/gallery4.jpg" class="w-full object-top h-[450px] sm:hidden object-cover">
+                    <a href="/portfolio#metais" style="padding: 0px !important;">
+                        <div class="gallery-overlay">
+                            <span>Metais Nobres</span>
+                        </div>
+                    </a>
                 </div>
 
                 <!-- DESKTOP -->
@@ -185,12 +190,22 @@
                 <!-- SEGUNDA LINHA MOBILE -->
                 <div class="flex sm:hidden gap-1 w-full">
 
-                    <div class="w-[60%]">
+                    <div class="w-[60%] gallery-item">
                         <img src="/images/home/gallery5.png" class="w-full h-[220px] object-cover">
+                        <a href="/portfolio#gemas" style="padding: 0px !important;">
+                            <div class="gallery-overlay">
+                                <span>Gemas e Metais</span>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="w-[40%]">
+                    <div class="w-[40%] gallery-item">
                         <img src="/images/home/gallery6.png" class="w-full h-[220px] object-cover">
+                        <a href="/portfolio#gemas" style="padding: 0px !important;">
+                            <div class="gallery-overlay">
+                                <span>Gemas e Metais</span>
+                            </div>
+                        </a>
                     </div>
 
                 </div>
@@ -236,16 +251,16 @@
                 <!-- MOBILE -->
                 <div class="flex sm:hidden gap-1">
 
-                    <div class="w-1/2">
+                    <div class="w-1/2 gallery-item">
                         <img src="/images/home/gallery10.jpg" class="w-full h-[220px] object-cover object-bottom">
-                        <a href="/portfolio#gemas" style="padding: 0px !important;">
+                        <a href="/portfolio#madeiras" style="padding: 0px !important;">
                             <div class="gallery-overlay">
-                                <span>Gemas e Metais</span>
+                                <span>Madeiras Brasileiras</span>
                             </div>
                         </a>
                     </div>
 
-                    <div class="w-1/2">
+                    <div class="w-1/2 gallery-item">
                         <img src="/images/home/gallery11.jpg" class="w-full h-[220px] object-cover">
                         <a href="/portfolio#gemas" style="padding: 0px !important;">
                             <div class="gallery-overlay">
@@ -257,8 +272,22 @@
                 </div>
 
                 <div class="flex sm:hidden flex-col gap-1">
-                    <img src="/images/home/gallery12.jpg" class="w-full h-[220px] object-cover">
-                    <img src="/images/home/gallery13.jpg" class="w-full h-[250px] object-cover">
+                    <div class="gallery-item">
+                        <img src="/images/home/gallery12.jpg" class="w-full h-[220px] object-cover">
+                        <a href="/portfolio#madeiras" style="padding: 0px !important;">
+                            <div class="gallery-overlay">
+                                <span>Madeiras Brasileiras</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/home/gallery13.jpg" class="w-full h-[250px] object-cover">
+                        <a href="/portfolio#metais" style="padding: 0px !important;">
+                            <div class="gallery-overlay">
+                                <span>Gemas e Metais</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
                 <!-- DESKTOP -->
@@ -453,8 +482,6 @@ const playVideo = async () => {
             rgba(0, 0, 0, .6) 40%,
             rgba(0, 0, 0, 0) 100%);
 }
-
-
 
 .play-button {
     position: absolute;
