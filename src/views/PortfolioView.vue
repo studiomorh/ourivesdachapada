@@ -745,8 +745,8 @@
 
 
     </div>
-    <button v-show="showScrollTop" @click="scrollToTop" class="scroll-top">
-        ↑
+    <button v-show="showScrollTop" @click="scrollToTop" class="scroll-top justify-center flex items-center">
+        <img src="/images/down.png" class="rotate-180 w-[40px]">
     </button>
 
 </template>
@@ -809,6 +809,8 @@ const atualizarTituloVisivel = () => {
 
 onMounted(() => {
 
+    window.addEventListener('scroll', handleScroll)
+
     const triggers =
         document.querySelectorAll('.trigger-titulo')
 
@@ -836,6 +838,8 @@ onMounted(() => {
 })
 
 onUnmounted(() => {
+
+    window.removeEventListener('scroll', handleScroll)
 
     if (observer) {
         observer.disconnect()
@@ -921,25 +925,5 @@ const openPortfolio = ref(false)
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
-}
-
-.scroll-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    border-radius: 999px;
-    background: rgba(19, 19, 19, 0.85);
-    backdrop-filter: blur(10px);
-    color: black;
-    font-size: 24px;
-    cursor: pointer;
-    transition: .3s;
-    z-index: 9999;
-}
-
-.scroll-top:hover {
-    transform: translateY(-3px);
 }
 </style>

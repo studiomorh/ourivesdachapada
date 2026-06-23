@@ -22,7 +22,7 @@
 
     </section>
 
-    <div class="flex justify-center gap-1 row-gallery">
+    <div class="flex justify-center gap-1 row-gallery px-3 sm:px-0">
         <div class="flex gap-1 justify-center">
             <div class="home-1-gallery rounded-tl-xl">
                 <img src="/images/home/foto1.jpg" class="">
@@ -385,13 +385,39 @@
         </div>
     </div>
 
+    <button v-show="showScrollTop" @click="scrollToTop" class="scroll-top justify-center flex items-center">
+        <img src="/images/down.png" class="rotate-180 w-[40px]">
+    </button>
+
 </template>
 
 
 <script setup>
 import Header from '../components/Header.vue'
 import StickyHeader from '../components/StickyHeader.vue'
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
+
+
+const showScrollTop = ref(false)
+
+const handleScroll = () => {
+    showScrollTop.value = window.scrollY > 500
+}
+
+const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
+
+onMounted(() => {
+    window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+    window.removeEventListener('scroll', handleScroll)
+})
 
 const video = ref(null)
 const started = ref(false)
