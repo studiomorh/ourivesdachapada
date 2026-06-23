@@ -3,7 +3,7 @@
     <section class="home-hero">
 
         <img src="/images/hero-poster.jpg"
-            class="min-h-[85vh] object-cover object-[85%] md:object-[100%] lg:object-center" />
+            class="min-h-[85vh] object-cover object-[80%] md:object-[100%] lg:object-center" />
 
         <div class="home-hero-overlay2 h-[85vh]"></div>
 
