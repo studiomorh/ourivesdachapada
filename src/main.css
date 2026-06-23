@@ -174,7 +174,8 @@
 }
 
 .home-hero {
-  height: 95vh;
+  height: 85vh;
+  min-height: 85vh;
   overflow: hidden;
 }
 

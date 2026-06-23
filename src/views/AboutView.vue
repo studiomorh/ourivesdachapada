@@ -3,7 +3,7 @@
     <section class="home-hero">
 
         <img src="/images/hero-poster.jpg"
-            class="h-[85vh] object-cover object-[-940px] sm:object-[-600px] md:object-[-300px] lg:object-center" />
+            class="min-h-[85vh] object-cover object-[85%] md:object-[100%] lg:object-center" />
 
         <div class="home-hero-overlay2 h-[85vh]"></div>
 
@@ -16,7 +16,7 @@
 
     </section>
 
-    <div class="w-full hidden sm:flex items-center text-start justify-center flex mt-[-200px]">
+    <div class="w-full hidden sm:flex items-center text-start justify-center flex mt-[-120px]">
         <div class="section max-w-[1210px]">
 
             <!-- BLOCO 1 -->
@@ -53,7 +53,7 @@
 
                 </div>
 
-                <div class="images">
+                <div class="images z-99999">
                     <img src="/images/ourives/roll1.jpg" style="border-radius: 10px 10px 0px 0px;">
                     <img src="/images/ourives/roll2.jpg">
                     <img src="/images/ourives/roll3.jpg">
