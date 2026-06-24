@@ -138,7 +138,7 @@
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: .3s;
-    z-index: 9999;
+    z-index: 9999999;
 }
 
 .scroll-top:hover {
@@ -250,12 +250,20 @@
     letter-spacing: 4px;
 }
 
+
+
 .tag {
+  max-width: fit-content;
     margin-top: 10px;
     border-left: 3px solid #cfb43c;
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-top: 8px;
     font-size: 15px;
     color: rgb(71, 71, 71);
+        background: rgba(255, 255, 255, 0.856);
+        padding-bottom: 8px;
+        border-radius: 0px 10px 10px 0px;
+    backdrop-filter: blur(5px);
 }
 
 

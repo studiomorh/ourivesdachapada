@@ -15,14 +15,15 @@
 
         <div class="home-hero-content z-99 mb-35 sm:mb-50 items-center justify-between">
             <Header class="header mt-3" />
-            <img src="/images/logosolo.png" alt="Ourives da Chapada Logo" class="home-hero-logo">
+            <img src="/images/logosolo.png" alt="Ourives da Chapada Logo" class="home-hero-logo z-999999 relative">
         </div>
 
     </section>
 
     <Destaques />
 
-    <div class="portfolio mt-40 w-full flex flex-col justify-center items-center">
+    <div
+        class="portfolio bg-[url(/images/portfolio/portfolio-fundo2.png)] md:bg-[url(/images/portfolio/portfolio-fundo.png)] bg-no-repeat bg-contain bg-top pt-30 sm:pt-40 md:pt-50 xl:pt-80 w-full flex flex-col justify-center items-center">
         <div class="w-full max-w-[1210px] flex flex-col items-center justify-center">
             <div class="destaque-text text-start w-full pl-5">
                 // PORTFÓLIO
@@ -745,6 +746,8 @@
 
 
     </div>
+
+
     <button v-show="showScrollTop" @click="scrollToTop" class="scroll-top justify-center flex items-center">
         <img src="/images/down.png" class="rotate-180 w-[40px]">
     </button>
@@ -925,5 +928,13 @@ const openPortfolio = ref(false)
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.fundo {
+    background-repeat: no-repeat;
+    background-position-y: top;
+    width: 100%;
+    z-index: 100000;
+    position: relative;
 }
 </style>
