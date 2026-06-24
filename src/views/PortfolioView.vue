@@ -13,9 +13,11 @@
 
         <div class="home-hero-overlay z-9"></div>
 
-        <div class="home-hero-content z-99 mb-35 sm:mb-50 items-center justify-between">
+        <div class="home-hero-content z-99 items-center">
             <Header class="header mt-3" />
-            <img src="/images/logosolo.png" alt="Ourives da Chapada Logo" class="home-hero-logo z-999999 relative">
+            <img src="/images/logosolo.png" alt="Ourives da Chapada Logo"
+                class="home-hero-logo z-999999 mt-[60vh] mb-[-10vh] sm-[-15vh] md:mb-[-20vh] lg:mb-[-35vh] xl:mb-[-35vh] relative">
+            <img src="/images/portfolio/portfoliohero.png" alt="" class="z-999999 object-cover object-right relative">
         </div>
 
     </section>
