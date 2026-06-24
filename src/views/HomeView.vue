@@ -15,7 +15,7 @@
         <div class="home-hero-overlay z-9"></div>
 
         <div class="home-hero-content z-99 mb-35 sm:mb-50 items-center justify-between">
-            <Header class="header mt-3" />
+            <Header class="header mt-4" />
             <img src="/images/logosolo.png" alt="Ourives da Chapada Logo" class="home-hero-logo">
         </div>
 
@@ -103,13 +103,14 @@
             </div>
         </div>
 
-        <div class="home-gallery px-2 sm:px-0 mt-20 w-full flex flex-col items-center justify-center">
+        <div class="home-gallery px-5 sm:px-0 mt-20 w-full flex flex-col items-center justify-center">
             <!-- ROW 1 -->
             <div class="flex flex-col sm:flex-row gap-1 w-full max-w-[1210px]">
 
                 <!-- FOTO GRANDE -->
                 <div class="w-full sm:w-1/2 gallery-item">
-                    <img src="/images/home/gallery1.jpg" class="w-full h-[500px] sm:h-[702px] object-cover">
+                    <img src="/images/home/gallery1.jpg"
+                        class="w-full h-[500px] sm:h-[702px] object-cover rounded-t-lg sm:rounded-tr-none">
                     <a href="/portfolio#madeiras" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Madeiras Brasileiras</span>
@@ -120,7 +121,8 @@
                 <!-- BLOCO DAS DUAS FOTOS -->
                 <div class="w-full sm:w-1/2 flex flex-row sm:flex-col gap-1 ">
                     <div class="gallery-item w-[50%] sm:w-full">
-                        <img src="/images/home/gallery2.png" class="w-full h-[200px] sm:h-[379px] object-cover">
+                        <img src="/images/home/gallery2.png"
+                            class="w-full h-[200px] sm:h-[379px] object-cover sm:rounded-tr-lg">
                         <a href="/portfolio#madeiras" style="padding: 0px !important;">
                             <div class="gallery-overlay">
                                 <span>Madeiras Brasileiras</span>
@@ -281,7 +283,7 @@
                         </a>
                     </div>
                     <div class="gallery-item">
-                        <img src="/images/home/gallery13.jpg" class="w-full h-[250px] object-cover">
+                        <img src="/images/home/gallery13.jpg" class="w-full h-[250px] object-cover rounded-b-lg">
                         <a href="/portfolio#metais" style="padding: 0px !important;">
                             <div class="gallery-overlay">
                                 <span>Gemas e Metais</span>
@@ -296,7 +298,7 @@
                     <div class="flex gap-1 w-[66%]">
 
                         <div class="w-1/2 gallery-item">
-                            <img src="/images/home/gallery10.jpg" class="w-full h-full object-cover">
+                            <img src="/images/home/gallery10.jpg" class="w-full h-full object-cover rounded-bl-lg">
                             <a href="/portfolio#madeiras" style="padding: 0px !important;">
                                 <div class="gallery-overlay">
                                     <span>Madeiras Brasileiras</span>
@@ -325,7 +327,7 @@
                             </a>
                         </div>
                         <div class="h-[51%] gallery-item">
-                            <img src="/images/home/gallery13.jpg" class="w-full h-full object-cover">
+                            <img src="/images/home/gallery13.jpg" class="w-full h-full object-cover rounded-br-lg">
                             <a href="/portfolio#gemas" style="padding: 0px !important;">
                                 <div class="gallery-overlay">
                                     <span>Gemas e Metais</span>
@@ -432,103 +434,6 @@ const playVideo = async () => {
 </script>
 
 <style scoped>
-.category-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: 5px;
-    cursor: pointer;
-    color: white;
-    transition: color 0.2s;
-
-}
-
-.category-card:hover {
-    color: #CFB43C;
-}
-
-.gallery-item {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.gallery-item img {
-    transition: transform .3s ease;
-}
-
-.gallery-overlay {
-    position: absolute;
-    inset: 0;
-
-    display: flex;
-    align-items: flex-end;
-
-    padding: 25px;
-
-    opacity: 0;
-
-    background: linear-gradient(to top,
-            rgba(0, 0, 0, .85) 0%,
-            rgba(0, 0, 0, .45) 35%,
-            rgba(0, 0, 0, 0) 70%);
-
-    transition: opacity .2s ease;
-}
-
-.gallery-overlay span {
-    color: white;
-    letter-spacing: 2px;
-    font-size: 18px;
-
-    transform: translateY(10px);
-    transition: .1s ease;
-}
-
-.gallery-item:hover .gallery-overlay {
-    opacity: 1;
-}
-
-.gallery-item:hover .gallery-overlay span {
-    transform: translateY(0);
-}
-
-.gallery-item:hover img {
-    transform: scale(1.03);
-}
-
-
-.category-title {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 40px 15px 15px;
-    background: linear-gradient(to top,
-            rgba(0, 0, 0, .9) 0%,
-            rgba(0, 0, 0, .6) 40%,
-            rgba(0, 0, 0, 0) 100%);
-}
-
-.play-button {
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    width: 80px;
-    height: 80px;
-    border-radius: 999px;
-    background: rgba(255, 255, 255, .15);
-    backdrop-filter: blur(8px);
-    color: white;
-    font-size: 2rem;
-    z-index: 999;
-    cursor: pointer;
-    transition: .2s;
-}
-
-.play-button:hover {
-    transform: scale(1.05);
-}
-
 .bg-home {
     background-image: url(/images/home/desktopbg.png);
     background-size: cover;

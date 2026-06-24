@@ -174,15 +174,12 @@
 }
 
 .home-hero {
-  height: 85vh;
-  min-height: 85vh;
   overflow: hidden;
 }
 
 .video {
   width: 100%;
   object-fit: cover !important;
-  height: 90vh;
 }
 
 .row-gallery {

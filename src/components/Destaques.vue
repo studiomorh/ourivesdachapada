@@ -80,13 +80,13 @@
 
                 <div class="w-full flex gap-1 max-h-[400px] overflow-hidden">
 
-                    <div class="flex flex-col w-2/3 max-h-full">
+                    <div class="flex flex-col w-2/3 max-h-full rounded-bl-lg">
 
                         <img src="/images/portfolio/sambura3.png" />
 
                     </div>
                     <div class="flex flex-col w-1/3 min-h-full">
-                        <img src="/images/portfolio/sambura4.png" class="h-full w-full object-cover" />
+                        <img src="/images/portfolio/sambura4.png" class="h-full w-full object-cover rounded-br-xl" />
                     </div>
                 </div>
 

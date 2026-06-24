@@ -9,7 +9,7 @@
 
         <div class="home-hero-content items-center pb-70 sm:pb-50 justify-between">
 
-            <Header class="header mt-3" />
+            <Header class="header mt-4" />
             <img src="/images/logowhite.png" alt="Ourives da Chapada Logo" class="w-[300px] sm:w-[500px]">
 
         </div>
@@ -225,7 +225,8 @@
 
             <!-- FOTO GRANDE -->
             <div class="w-full sm:w-1/2 gallery-item">
-                <img src="/images/home/gallery1.jpg" class="w-full h-[500px] sm:h-[702px] object-cover">
+                <img src="/images/home/gallery1.jpg"
+                    class="w-full h-[500px] sm:h-[702px] object-cover rounded-t-lg sm:rounded-tr-none">
                 <a href="/portfolio#madeiras" style="padding: 0px !important;">
                     <div class="gallery-overlay">
                         <span>Madeiras Brasileiras</span>
@@ -236,7 +237,8 @@
             <!-- BLOCO DAS DUAS FOTOS -->
             <div class="w-full sm:w-1/2 flex flex-row sm:flex-col gap-1 ">
                 <div class="gallery-item w-[50%] sm:w-full">
-                    <img src="/images/home/gallery2.png" class="w-full h-[200px] sm:h-[379px] object-cover">
+                    <img src="/images/home/gallery2.png"
+                        class="w-full h-[200px] sm:h-[379px] object-cover sm:rounded-tr-lg">
                     <a href="/portfolio#madeiras" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Madeiras Brasileiras</span>
@@ -397,7 +399,7 @@
                     </a>
                 </div>
                 <div class="gallery-item">
-                    <img src="/images/home/gallery13.jpg" class="w-full h-[250px] object-cover">
+                    <img src="/images/home/gallery13.jpg" class="w-full h-[250px] object-cover rounded-b-lg">
                     <a href="/portfolio#metais" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Gemas e Metais</span>
@@ -412,7 +414,7 @@
                 <div class="flex gap-1 w-[66%]">
 
                     <div class="w-1/2 gallery-item">
-                        <img src="/images/home/gallery10.jpg" class="w-full h-full object-cover">
+                        <img src="/images/home/gallery10.jpg" class="w-full h-full object-cover rounded-bl-lg">
                         <a href="/portfolio#madeiras" style="padding: 0px !important;">
                             <div class="gallery-overlay">
                                 <span>Madeiras Brasileiras</span>
@@ -441,7 +443,7 @@
                         </a>
                     </div>
                     <div class="h-[51%] gallery-item">
-                        <img src="/images/home/gallery13.jpg" class="w-full h-full object-cover">
+                        <img src="/images/home/gallery13.jpg" class="w-full h-full object-cover rounded-br-lg">
                         <a href="/portfolio#gemas" style="padding: 0px !important;">
                             <div class="gallery-overlay">
                                 <span>Gemas e Metais</span>
