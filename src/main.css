@@ -185,12 +185,12 @@
 .row-gallery {
     background-image: url(/images/home/fundo1.png);
     height: 1000px;
-    margin-top: -140px;
+    margin-top: -200px;
     background-position-y: top;
     z-index: 50;
     display: flex;
     position: relative;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .btn-primary {
