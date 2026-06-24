@@ -22,7 +22,7 @@
 
     </section>
 
-    <div class="flex justify-center gap-1 row-gallery bg-contain md:bg-cover px-3 sm:px-0">
+    <div class="flex justify-center gap-1 row-gallery bg-contain bg-no-repeat md:bg-cover px-3 sm:px-0">
         <div class="flex gap-1 justify-center">
             <div class="home-1-gallery rounded-tl-xl">
                 <img src="/images/home/foto1.jpg" class="">
