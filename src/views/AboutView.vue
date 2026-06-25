@@ -211,11 +211,11 @@
     </div>
 
     <div class="portfolio-button sm:hidden mt-6 w-full justify-center items-center flex" id="contato">
-        <a href="/portfolio" class="">
+        <RouterLink to="/portfolio" class="">
             <button class="btn-primary cursor-pointer">
                 VER PORTFÓLIO COMPLETO
             </button>
-        </a>
+        </RouterLink>
     </div>
 
 

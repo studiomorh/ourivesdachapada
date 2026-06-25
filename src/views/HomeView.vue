@@ -58,7 +58,7 @@
             <div class="flex gap-1 sm:mt-5 text-center text-[16px] sm:text-[20px] max-w-[1210px]"
                 style="letter-spacing: 2px; font-weight: 400;">
                 <div class="flex gap-1 flex-col sm:flex-row">
-                    <a href="/portfolio#classicos" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#classicos" style="padding: 0px !important;">
                         <div class="category-card">
                             <img src="/images/home/classicos.jpg"
                                 class="sm:h-[400px] h-[300px] object-cover rounded-sm w-[300px]">
@@ -66,55 +66,55 @@
                                 CLÁSSICOS ESSENCIAIS
                             </span>
                         </div>
-                    </a>
-                    <a href="/portfolio#metais" style="padding: 0px !important;">
+                    </RouterLink>
+                    <RouterLink to="/portfolio#metais" style="padding: 0px !important;">
                         <div class="category-card">
                             <img src="/images/home/metais.png"
                                 class="sm:h-[400px] h-[300px] rounded-sm object-cover w-[300px]">
                             <span class="category-title">METAIS NOBRES</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
                 <div class="flex gap-1 flex-col sm:flex-row">
-                    <a href="/portfolio#fibras" style="padding: 0px !important;">
+                    <<RouterLink to="/portfolio#fibras" style="padding: 0px !important;">
                         <div class="category-card">
                             <img src="/images/home/fibras.jpg"
                                 class="sm:h-[400px] h-[300px] rounded-sm  object-cover w-[300px]">
                             <span class="category-title">FIBRAS E TRAMAS</span>
                         </div>
-                    </a>
-                    <a href="/portfolio#natureza" style="padding: 0px !important;">
-                        <div class="category-card">
-                            <img src="/images/home/natureza.jpg"
-                                class="sm:h-[400px] h-[300px] rounded-sm object-cover w-[300px]">
-                            <span class="category-title">NATUREZA BRUTA</span>
-                        </div>
-                    </a>
+                        </RouterLink>
+                        <RouterLink to="/portfolio#natureza" style="padding: 0px !important;">
+                            <div class="category-card">
+                                <img src="/images/home/natureza.jpg"
+                                    class="sm:h-[400px] h-[300px] rounded-sm object-cover w-[300px]">
+                                <span class="category-title">NATUREZA BRUTA</span>
+                            </div>
+                        </RouterLink>
                 </div>
             </div>
             <div class="flex max-w-[1210px] flex-col sm:flex-row max-h-fit sm:max-h-[400px] justify-between w-full text-center gap-1 text-[16px] sm:text-[20px]"
                 style="letter-spacing: 2px; font-weight: 400;">
-                <a href="/portfolio#madeiras" class=" sm:w-1/3" style="padding: 0px !important;">
+                <RouterLink to="/portfolio#madeiras" class=" sm:w-1/3" style="padding: 0px !important;">
                     <div class="category-card">
                         <img src="/images/home/madeiras.jpg"
                             class="w-full rounded-sm  h-[300px] sm:min-h-full object-cover">
                         <span class="category-title">MADEIRAS BRASILEIRAS</span>
                     </div>
-                </a>
-                <a href="/portfolio#gemas" class=" sm:w-1/3" style="padding: 0px !important;">
+                </RouterLink>
+                <RouterLink to="/portfolio#gemas" class=" sm:w-1/3" style="padding: 0px !important;">
                     <div class="category-card">
                         <img src="/images/home/gemas.jpg"
                             class="w-full rounded-sm  h-[300px] sm:min-h-full object-cover">
                         <span class="category-title">GEMAS E METAIS</span>
                     </div>
-                </a>
-                <a href="/portfolio#projetos" class=" sm:w-1/3" style="padding: 0px !important;">
+                </RouterLink>
+                <RouterLink to="/portfolio#projetos" class=" sm:w-1/3" style="padding: 0px !important;">
                     <div class="category-card">
                         <img src="/images/home/projetos.jpg"
                             class="w-full rounded-sm h-[300px] sm:min-h-full object-cover">
                         <span class="category-title">PROJETOS ESPECIAIS</span>
                     </div>
-                </a>
+                </RouterLink>
             </div>
         </div>
 
