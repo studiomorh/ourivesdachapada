@@ -65,7 +65,7 @@
             <div class="md:flex hidden max-w-[1210px]">
                 <video ref="video" autoplay muted loop playsinline preload="auto"
                     class="hero-video mb-1 h-full w-full object-cover">
-                    <source src="/images/portfolio/hero.mp4" type="video/mp4">
+                    <source src="/images/portfolio/hero-small.mp4" type="video/mp4">
                 </video>
 
 
