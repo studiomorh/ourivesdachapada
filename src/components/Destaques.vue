@@ -1,6 +1,6 @@
     <template>
         <div
-            class="destaques-desktop z-999 relative px-2 bg-[url(/images/portfolio/destaques--fundo2.png)] xl:bg-[url(/images/portfolio/destaques--fundo.png)] bg-contain bg-no-repeat bg-right mt-[-70px] md:mt-20 w-full justify-center flex flex-col items-center">
+            class="destaques-desktop z-999 relative px-2 bg-[url(/images/portfolio/destaques--fundo2.png)] xl:bg-[url(/images/portfolio/destaques--fundo.png)] bg-contain xl:bg-cover bg-no-repeat bg-right mt-[-70px] md:mt-20 w-full justify-center flex flex-col items-center">
             <div class="sambura flex flex-col md:flex-row gap-1 w-full max-w-[1210px]">
                 <div class="coluna1 w-full md:w-1/2 text-start">
                     <img src="/images/portfolio/sambura1.jpg" class="mb-4 md:hidden"

@@ -356,7 +356,7 @@
         </div>
 
         <div class="portfolio-button mt-6 w-full justify-center items-center flex" id="contato">
-            <a href="/portfolio" class="">
+            <a href="ourivesdachapada.vercel.app/portfolio" class="">
                 <button class="btn-primary cursor-pointer">
                     VER PORTFÓLIO COMPLETO
                 </button>

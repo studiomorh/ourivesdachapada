@@ -16,7 +16,7 @@
         <div class="home-hero-content z-99 items-center">
             <Header class="header mt-3" />
             <img src="/images/logosolo.png" alt="Ourives da Chapada Logo"
-                class="home-hero-logo z-999999 mt-[60vh] mb-[-10vh] sm-[-15vh] md:mb-[-20vh] lg:mb-[-35vh] xl:mb-[-35vh] relative">
+                class="home-hero-logo z-999999 mt-[60vh] mb-[-10vh] sm-[-15vh] md:mb-[-20vh] lg:mb-[-35vh] xl:mb-[-40vh] relative">
             <img src="/images/portfolio/portfoliohero.png" alt="" class="z-999999 object-cover object-right relative">
         </div>
 
@@ -25,7 +25,7 @@
     <Destaques />
 
     <div
-        class="portfolio bg-[url(/images/portfolio/portfolio-fundo2.png)] md:bg-[url(/images/portfolio/portfolio-fundo.png)] bg-no-repeat bg-contain bg-top pt-30 sm:pt-40 md:pt-50 xl:pt-80 w-full flex flex-col justify-center items-center">
+        class="portfolio bg-[url(/images/portfolio/portfolio-fundo2.png)] md:bg-[url(/images/portfolio/portfoliofundo1.png)] bg-no-repeat bg-contain bg-top pt-30 sm:pt-40 md:pt-50 xl:pt-80 w-full flex flex-col justify-center items-center">
         <div class="w-full max-w-[1210px] flex flex-col items-center justify-center">
             <div class="destaque-text text-start w-full pl-5">
                 // PORTFÓLIO
@@ -60,7 +60,7 @@
 
 
             <!-- PORTFÓLIO -->
-            <div class="px-2 md:px-0">
+            <div class="px-2 xl:px-0">
                 <!--MADEIRAS BRASILEIRAS-->
                 <div class="trigger-titulo" data-titulo="MADEIRAS BRASILEIRAS"></div>
 
