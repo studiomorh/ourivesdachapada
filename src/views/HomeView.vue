@@ -356,11 +356,9 @@
         </div>
 
         <div class="portfolio-button mt-6 w-full justify-center items-center flex" id="contato">
-            <a href="ourivesdachapada.vercel.app/portfolio" class="">
-                <button class="btn-primary cursor-pointer">
-                    VER PORTFÓLIO COMPLETO
-                </button>
-            </a>
+            <RouterLink to="/portfolio" class="btn-primary">
+                VER PORTFÓLIO COMPLETO
+            </RouterLink>
         </div>
 
         <div class="contact mt-20 flex justify-center items-center text-center">
