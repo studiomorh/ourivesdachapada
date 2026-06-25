@@ -5,7 +5,7 @@
 
         <video ref="video" autoplay muted loop playsinline preload="auto" @play="started = true"
             class="hero-video h-[95vh] w-full object-cover">
-            <source src="/images/portfolio/hero.mp4" type="video/mp4">
+            <source src="/images/portfolio/hero-small.mp4" type="video/mp4">
         </video>
 
         <!-- <button v-if="!started" @click="playVideo" class="play-button mt-[-10px]">
