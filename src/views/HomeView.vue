@@ -8,9 +8,9 @@
             <source src="/images/portfolio/hero.mp4" type="video/mp4">
         </video>
 
-        <button v-if="!started" @click="playVideo" class="play-button mt-[-10px]">
+        <!-- <button v-if="!started" @click="playVideo" class="play-button mt-[-10px]">
             ▶
-        </button>
+        </button> -->
 
         <div class="home-hero-overlay z-9"></div>
 
