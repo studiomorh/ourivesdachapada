@@ -76,20 +76,20 @@
                     </RouterLink>
                 </div>
                 <div class="flex gap-1 flex-col sm:flex-row">
-                    <<RouterLink to="/portfolio#fibras" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#fibras" style="padding: 0px !important;">
                         <div class="category-card">
                             <img src="/images/home/fibras.jpg"
                                 class="sm:h-[400px] h-[300px] rounded-sm  object-cover w-[300px]">
                             <span class="category-title">FIBRAS E TRAMAS</span>
                         </div>
-                        </RouterLink>
-                        <RouterLink to="/portfolio#natureza" style="padding: 0px !important;">
-                            <div class="category-card">
-                                <img src="/images/home/natureza.jpg"
-                                    class="sm:h-[400px] h-[300px] rounded-sm object-cover w-[300px]">
-                                <span class="category-title">NATUREZA BRUTA</span>
-                            </div>
-                        </RouterLink>
+                    </RouterLink>
+                    <RouterLink to="/portfolio#natureza" style="padding: 0px !important;">
+                        <div class="category-card">
+                            <img src="/images/home/natureza.jpg"
+                                class="sm:h-[400px] h-[300px] rounded-sm object-cover w-[300px]">
+                            <span class="category-title">NATUREZA BRUTA</span>
+                        </div>
+                    </RouterLink>
                 </div>
             </div>
             <div class="flex max-w-[1210px] flex-col sm:flex-row max-h-fit sm:max-h-[400px] justify-between w-full text-center gap-1 text-[16px] sm:text-[20px]"
