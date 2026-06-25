@@ -227,11 +227,11 @@
             <div class="w-full sm:w-1/2 gallery-item">
                 <img src="/images/home/gallery1.jpg"
                     class="w-full h-[500px] sm:h-[702px] object-cover rounded-t-lg sm:rounded-tr-none">
-                <a href="/portfolio#madeiras" style="padding: 0px !important;">
+                <RouterLink to="/portfolio#madeiras" style="padding: 0px !important;">
                     <div class="gallery-overlay">
                         <span>Madeiras Brasileiras</span>
                     </div>
-                </a>
+                </RouterLink>
             </div>
 
             <!-- BLOCO DAS DUAS FOTOS -->
@@ -239,21 +239,21 @@
                 <div class="gallery-item w-[50%] sm:w-full">
                     <img src="/images/home/gallery2.png"
                         class="w-full h-[200px] sm:h-[379px] object-cover sm:rounded-tr-lg">
-                    <a href="/portfolio#madeiras" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#madeiras" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Madeiras Brasileiras</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
 
 
                 <div class="gallery-item w-[49%] sm:w-full h-[200px] sm:h-[319px]">
                     <img src="/images/home/gallery3.jpg" class="h-full w-full object-cover">
-                    <a href="/portfolio#madeiras" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#madeiras" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Madeiras Brasileiras</span>
                         </div>
-                    </a>
+                    </RouterLink>
 
                 </div>
             </div>
@@ -266,11 +266,11 @@
             <!-- PRIMEIRA LINHA MOBILE -->
             <div class="w-full gallery-item">
                 <img src="/images/home/gallery4.jpg" class="w-full object-top h-[450px] sm:hidden object-cover">
-                <a href="/portfolio#metais" style="padding: 0px !important;">
+                <RouterLink to="/portfolio#metais" style="padding: 0px !important;">
                     <div class="gallery-overlay">
                         <span>Metais Nobres</span>
                     </div>
-                </a>
+                </RouterLink>
             </div>
 
             <!-- DESKTOP -->
@@ -278,29 +278,29 @@
 
                 <div class="w-[35%] gallery-item">
                     <img src="/images/home/gallery4.jpg" class="w-full h-[430px] object-cover">
-                    <a href="/portfolio#metais" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#metais" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Metais Nobres</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
 
                 <div class="w-[40%] gallery-item">
                     <img src="/images/home/gallery5.png" class="w-full h-[430px] object-cover">
-                    <a href="/portfolio#gemas" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#gemas" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Gemas e Metais</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
 
                 <div class="w-[25%] gallery-item">
                     <img src="/images/home/gallery6.png" class="w-full h-[430px] object-cover">
-                    <a href="/portfolio#gemas" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#gemas" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Gemas e Metais</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
 
             </div>
@@ -310,20 +310,20 @@
 
                 <div class="w-[60%] gallery-item">
                     <img src="/images/home/gallery5.png" class="w-full h-[220px] object-cover">
-                    <a href="/portfolio#gemas" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#gemas" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Gemas e Metais</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
 
                 <div class="w-[40%] gallery-item">
                     <img src="/images/home/gallery6.png" class="w-full h-[220px] object-cover">
-                    <a href="/portfolio#gemas" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#gemas" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Gemas e Metais</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
 
             </div>
@@ -336,29 +336,29 @@
 
             <div class="w-full sm:w-1/3 h-full gallery-item">
                 <img src="/images/home/gallery7.png" class="w-full h-full object-cover">
-                <a href="/portfolio#gemas" style="padding: 0px !important;">
+                <RouterLink to="/portfolio#gemas" style="padding: 0px !important;">
                     <div class="gallery-overlay">
                         <span>Gemas e Metais</span>
                     </div>
-                </a>
+                </RouterLink>
             </div>
             <div class="w-full sm:w-2/3 gap-1 h-full flex">
                 <div class="w-1/2 min-h-full gallery-item">
                     <img src="/images/home/gallery8.jpg" class="w-full h-full object-cover">
-                    <a href="/portfolio#metais" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#metais" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Metais Nobres</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
 
                 <div class="w-1/2 h-full gallery-item">
                     <img src="/images/home/gallery9.jpg" class="w-full h-full object-cover">
-                    <a href="/portfolio#gemas" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#gemas" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Gemas e Metais</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
             </div>
 
@@ -371,20 +371,20 @@
 
                 <div class="w-1/2 gallery-item">
                     <img src="/images/home/gallery10.jpg" class="w-full h-[220px] object-cover object-bottom">
-                    <a href="/portfolio#madeiras" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#madeiras" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Madeiras Brasileiras</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
 
                 <div class="w-1/2 gallery-item">
                     <img src="/images/home/gallery11.jpg" class="w-full h-[220px] object-cover">
-                    <a href="/portfolio#gemas" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#gemas" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Gemas e Metais</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
 
             </div>
@@ -392,19 +392,19 @@
             <div class="flex sm:hidden flex-col gap-1">
                 <div class="gallery-item">
                     <img src="/images/home/gallery12.jpg" class="w-full h-[220px] object-cover">
-                    <a href="/portfolio#madeiras" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#madeiras" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Madeiras Brasileiras</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
                 <div class="gallery-item">
                     <img src="/images/home/gallery13.jpg" class="w-full h-[250px] object-cover rounded-b-lg">
-                    <a href="/portfolio#metais" style="padding: 0px !important;">
+                    <RouterLink to="/portfolio#gemas" style="padding: 0px !important;">
                         <div class="gallery-overlay">
                             <span>Gemas e Metais</span>
                         </div>
-                    </a>
+                    </RouterLink>
                 </div>
             </div>
 
@@ -415,20 +415,20 @@
 
                     <div class="w-1/2 gallery-item">
                         <img src="/images/home/gallery10.jpg" class="w-full h-full object-cover rounded-bl-lg">
-                        <a href="/portfolio#madeiras" style="padding: 0px !important;">
+                        <RouterLink to="/portfolio#madeiras" style="padding: 0px !important;">
                             <div class="gallery-overlay">
                                 <span>Madeiras Brasileiras</span>
                             </div>
-                        </a>
+                        </RouterLink>
                     </div>
 
                     <div class="w-1/2 gallery-item">
                         <img src="/images/home/gallery11.jpg" class="w-full h-full object-cover">
-                        <a href="/portfolio#gemas" style="padding: 0px !important;">
+                        <RouterLink to="/portfolio#gemas" style="padding: 0px !important;">
                             <div class="gallery-overlay">
                                 <span>Gemas e Metais</span>
                             </div>
-                        </a>
+                        </RouterLink>
                     </div>
 
                 </div>
@@ -436,19 +436,19 @@
                 <div class="flex flex-col gap-1 w-[34%]">
                     <div class="h-[48%] gallery-item">
                         <img src="/images/home/gallery12.jpg" class="w-full h-full object-cover">
-                        <a href="/portfolio#madeiras" style="padding: 0px !important;">
+                        <RouterLink to="/portfolio#madeiras" style="padding: 0px !important;">
                             <div class="gallery-overlay">
                                 <span>Madeiras Brasileiras</span>
                             </div>
-                        </a>
+                        </RouterLink>
                     </div>
                     <div class="h-[51%] gallery-item">
                         <img src="/images/home/gallery13.jpg" class="w-full h-full object-cover rounded-br-lg">
-                        <a href="/portfolio#gemas" style="padding: 0px !important;">
+                        <RouterLink to="/portfolio#gemas" style="padding: 0px !important;">
                             <div class="gallery-overlay">
                                 <span>Gemas e Metais</span>
                             </div>
-                        </a>
+                        </RouterLink>
                     </div>
                 </div>
             </div>
@@ -457,11 +457,9 @@
     </div>
 
     <div class="portfolio-button hidden sm:flex mt-6 w-full justify-center items-center flex" id="contato">
-        <a href="/portfolio" class="">
-            <button class="btn-primary cursor-pointer">
-                VER PORTFÓLIO COMPLETO
-            </button>
-        </a>
+        <RouterLink to="/portfolio" class="btn-primary">
+            VER PORTFÓLIO COMPLETO
+        </RouterLink>
     </div>
 
     <button v-show="showScrollTop" @click="scrollToTop" class="scroll-top justify-center flex z-9999 items-center">
