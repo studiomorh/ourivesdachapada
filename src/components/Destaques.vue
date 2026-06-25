@@ -49,7 +49,7 @@
                     <div class="flex md:hidden px-0">
                         <video ref="video" autoplay muted loop playsinline preload="auto"
                             class="hero-video h-full w-full object-cover">
-                            <source src="/images/portfolio/hero.mp4" type="video/mp4">
+                            <source src="/images/portfolio/hero-small.mp4" type="video/mp4">
                         </video>
                     </div>
 
