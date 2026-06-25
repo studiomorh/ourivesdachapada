@@ -3,7 +3,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import PortfolioView from '../views/PortfolioView.vue'
-import teste from '../views/teste.vue'
 
 const routes = [
   {
@@ -15,11 +14,6 @@ const routes = [
     path: '/o-ourives',
     name: 'about',
     component: AboutView
-  },
-  {
-    path: '/teste',
-    name: 'teste',
-    component: teste
   },
   {
     path: '/portfolio',
