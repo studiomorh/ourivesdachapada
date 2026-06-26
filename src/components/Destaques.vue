@@ -180,10 +180,10 @@
                     </div>
 
                     <div class="tag">
-                        <p>Colar e Brinco</p>
-                        <p>Técnica: Ourivesaria</p>
-                        <p>Materiais: Piaçava, Jacarandá, Prata 950 e Ouro</p>
-                        <p>Dimensões: Colar: 23cm x 18cm | Brincos 5cm x 1cm</p>
+                        <p>Anel</p>
+                        <p>Técnica: Ourivesaria e marchetaria</p>
+                        <p>Materiais: Pau Brasil e Prata 950</p>
+                        <p>Dimensão: 5cm x 1,5cm </p>
                     </div>
                 </div>
                 <div class="coluna2 text-start mt-8 md:mt-15 w-full md:w-1/2  px-3">
