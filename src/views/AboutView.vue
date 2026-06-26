@@ -1,11 +1,11 @@
 <template>
 
-    <section class="home-hero">
+    <section class="home-hero max-h-[85vh] overflow-hidden">
 
         <img src="/images/hero-poster.jpg"
             class="min-h-[85vh] object-cover object-[80%] md:object-[100%] lg:object-center" />
 
-        <div class="home-hero-overlay2 h-[85vh]"></div>
+        <div class="home-hero-overlay2  max-h-[85vh]"></div>
 
         <div class="home-hero-content items-center pb-70 sm:pb-50 justify-between">
 
