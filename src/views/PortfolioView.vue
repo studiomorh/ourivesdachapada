@@ -16,7 +16,7 @@
         <div class="home-hero-content z-99 items-center">
             <Header class="header mt-3" />
             <img src="/images/logosolo.png" alt="Ourives da Chapada Logo"
-                class="home-hero-logo z-999999 mt-[60vh] mb-[-10vh] sm-[-15vh] md:mb-[-245px] lg:mb-[-35vh] xl:mb-[-40vh] relative">
+                class="home-hero-logo z-999999 mt-[60vh] md:mt-[45vh] lg:mt-[50vh] mb-[-10vh] sm-[-15vh] md:mb-[-250px] lg:mb-[-300px] xl:mb-[-350px] relative">
             <img src="/images/portfolio/portfoliohero.png" alt="" class="z-999999 object-cover object-right relative">
         </div>
 
